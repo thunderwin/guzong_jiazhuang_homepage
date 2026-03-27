@@ -269,6 +269,9 @@ const jobs = [
     ]
   }
 ]
+
+const activeJobIndex = ref(0)
+const activeJob = computed(() => jobs[activeJobIndex.value] || jobs[0])
 </script>
 
 <template>
@@ -280,53 +283,92 @@ const jobs = [
     <UPageSection
       id="job-list"
       title="开放岗位"
-      description="以下岗位信息完整展示，便于你快速评估匹配度。"
       class="relative"
     >
-      <div class="space-y-8 max-w-4xl mx-auto">
-        <UPageCard
-          v-for="job in jobs"
-          :key="job.title"
-          variant="subtle"
-          class="group"
-        >
-          <div class="p-6 sm:p-8">
-            <!-- Header -->
-            <div class="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-6">
-              <div class="space-y-3">
-                <h3 class="text-xl font-semibold leading-tight text-foreground">
+      <div class="mx-auto max-w-6xl">
+        <div class="mb-6 lg:hidden">
+          <label class="mb-2 block text-sm font-medium text-muted">
+            选择岗位
+          </label>
+          <div class="relative">
+            <select
+              v-model.number="activeJobIndex"
+              class="w-full appearance-none rounded-xl border border-default bg-default px-4 py-3 pr-10 text-sm text-foreground outline-none transition focus:border-primary/50"
+            >
+              <option
+                v-for="(job, index) in jobs"
+                :key="job.title"
+                :value="index"
+              >
+                {{ job.title }}
+              </option>
+            </select>
+            <UIcon
+              name="i-lucide-chevron-down"
+              class="pointer-events-none absolute right-3 top-1/2 size-4 -translate-y-1/2 text-muted"
+            />
+          </div>
+        </div>
+
+        <div class="grid gap-6 lg:grid-cols-[280px_minmax(0,1fr)]">
+          <aside class="hidden lg:block">
+            <div class="sticky top-24 rounded-2xl border border-default bg-default/50 p-3">
+              <button
+                v-for="(job, index) in jobs"
+                :key="job.title"
+                type="button"
+                class="mb-2 w-full rounded-xl border px-4 py-3 text-left transition-colors last:mb-0"
+                :class="activeJobIndex === index ? 'border-primary/40 bg-primary/10' : 'border-transparent bg-transparent hover:border-default hover:bg-default/70'"
+                @click="activeJobIndex = index"
+              >
+                <p class="line-clamp-2 text-sm font-semibold text-foreground">
                   {{ job.title }}
-                </h3>
-                <div class="flex flex-wrap items-center gap-2">
-                  <UBadge color="primary" variant="soft" class="font-medium">
-                    {{ job.type }}
-                  </UBadge>
-                  <UBadge color="neutral" variant="soft">
-                    {{ job.level }}
-                  </UBadge>
-                  <span class="flex items-center gap-1 text-sm text-muted">
-                    <UIcon name="i-lucide-map-pin" class="size-4" />
-                    {{ job.location }}
-                  </span>
+                </p>
+                <p class="mt-1 text-xs text-muted">
+                  {{ job.type }} · {{ job.level }}
+                </p>
+              </button>
+            </div>
+          </aside>
+
+          <UPageCard
+            variant="subtle"
+            class="group"
+          >
+            <div class="p-4 sm:p-8">
+              <div class="mb-6 flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                <div class="space-y-3">
+                  <h3 class="text-lg font-semibold leading-tight text-foreground sm:text-xl">
+                    {{ activeJob.title }}
+                  </h3>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <UBadge color="primary" variant="soft" class="font-medium">
+                      {{ activeJob.type }}
+                    </UBadge>
+                    <UBadge color="neutral" variant="soft">
+                      {{ activeJob.level }}
+                    </UBadge>
+                    <span class="flex items-center gap-1 break-words text-sm text-muted">
+                      <UIcon name="i-lucide-map-pin" class="size-4" />
+                      {{ activeJob.location }}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <!-- Summary -->
-            <p class="text-base text-muted mb-8 leading-relaxed">
-              {{ job.summary }}
-            </p>
+              <p class="mb-8 text-sm leading-relaxed text-muted sm:text-base">
+                {{ activeJob.summary }}
+              </p>
 
-            <!-- Dynamic Sections -->
-            <div class="space-y-6">
-              <div
-                v-for="section in job.sections"
-                :key="section.title"
-                class="space-y-3"
-              >
-                <h4 class="font-semibold text-foreground flex items-center gap-2">
-                  <UIcon
-                    :name="section.title === '岗位定位' ? 'i-lucide-compass' :
+              <div class="space-y-6">
+                <div
+                  v-for="section in activeJob.sections"
+                  :key="section.title"
+                  class="space-y-3"
+                >
+                  <h4 class="flex items-center gap-2 font-semibold text-foreground">
+                    <UIcon
+                      :name="section.title === '岗位定位' ? 'i-lucide-compass' :
                            section.title === '岗位职责' ? 'i-lucide-check-circle' :
                            section.title === '任职要求' ? 'i-lucide-target' :
                            section.title === '优先考虑' ? 'i-lucide-star' :
@@ -335,24 +377,25 @@ const jobs = [
                            section.title === '熟练的技术栈' ? 'i-lucide-code' :
                            section.title === '岗位价值' ? 'i-lucide-gem' :
                            'i-lucide-file-text'"
-                    class="size-5 text-primary"
-                  />
-                  {{ section.title }}
-                </h4>
-                <ul class="space-y-2">
-                  <li
-                    v-for="item in section.items"
-                    :key="item"
-                    class="flex items-start gap-2 text-sm text-muted leading-relaxed"
-                  >
-                    <span class="mt-1.5 size-1.5 rounded-full bg-primary shrink-0" />
-                    <span>{{ item }}</span>
-                  </li>
-                </ul>
+                      class="size-5 text-primary"
+                    />
+                    {{ section.title }}
+                  </h4>
+                  <ul class="space-y-2">
+                    <li
+                      v-for="item in section.items"
+                      :key="item"
+                      class="flex items-start gap-2 text-sm leading-relaxed text-muted"
+                    >
+                      <span class="mt-1.5 size-1.5 shrink-0 rounded-full bg-primary" />
+                      <span class="break-words">{{ item }}</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </UPageCard>
+          </UPageCard>
+        </div>
       </div>
     </UPageSection>
 
