@@ -15,16 +15,32 @@ useSeoMeta({
 <template>
   <div
     v-if="page"
-    class="relative"
+    class="relative overflow-hidden"
   >
+    <div class="pointer-events-none absolute inset-0 -z-20 bg-[radial-gradient(1200px_520px_at_12%_-8%,rgba(16,185,129,0.22),transparent_62%),radial-gradient(860px_420px_at_88%_8%,rgba(6,182,212,0.18),transparent_60%),linear-gradient(180deg,rgba(15,23,42,0.03),transparent_40%)] dark:bg-[radial-gradient(1200px_520px_at_12%_-8%,rgba(16,185,129,0.28),transparent_62%),radial-gradient(860px_420px_at_88%_8%,rgba(6,182,212,0.24),transparent_60%),linear-gradient(180deg,rgba(2,6,23,0.48),rgba(2,6,23,0)_40%)]" />
+    <div class="pointer-events-none absolute inset-0 -z-10 opacity-35 [background-image:linear-gradient(to_right,rgba(148,163,184,0.12)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.12)_1px,transparent_1px)] [background-size:32px_32px]" />
+
     <!-- Background decorations -->
     <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[650px] overflow-hidden">
-      <UColorModeImage
-        light="/images/light/line-1.svg"
-        dark="/images/dark/line-1.svg"
-        class="absolute left-0 top-0 h-[650px] w-full object-cover opacity-80"
-      />
-      <div class="absolute inset-0 bg-gradient-to-b from-primary/6 via-primary/3 to-transparent" />
+      <svg
+        viewBox="0 0 1440 650"
+        xmlns="http://www.w3.org/2000/svg"
+        class="absolute left-0 top-0 h-[650px] w-full"
+      >
+        <defs>
+          <linearGradient id="heroBgFill" x1="720" y1="0" x2="720" y2="650" gradientUnits="userSpaceOnUse">
+            <stop stop-color="currentColor" stop-opacity="0.12" />
+            <stop offset="1" stop-color="currentColor" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="1440" height="650" fill="url(#heroBgFill)" class="text-primary" />
+        <path d="M0 128H1440" stroke="currentColor" stroke-opacity="0.18" stroke-dasharray="8 10" class="text-primary" />
+        <path d="M0 224H1440" stroke="currentColor" stroke-opacity="0.12" stroke-dasharray="6 8" class="text-primary" />
+        <path d="M0 320H1440" stroke="currentColor" stroke-opacity="0.08" stroke-dasharray="4 8" class="text-primary" />
+      </svg>
+      <div class="absolute -left-20 top-10 h-64 w-64 rounded-full bg-primary/20 blur-3xl" />
+      <div class="absolute right-[-80px] top-28 h-72 w-72 rounded-full bg-cyan-400/20 blur-3xl" />
+      <div class="absolute left-1/2 top-[380px] h-40 w-[60%] -translate-x-1/2 rounded-full bg-primary/10 blur-3xl" />
     </div>
 
     <!-- Hero Section -->
@@ -103,8 +119,9 @@ useSeoMeta({
 
     <!-- Core Features Section - 核心竞争力 -->
     <section id="features" class="relative overflow-hidden py-20">
-      <div class="absolute rounded-full -left-20 top-20 size-[400px] bg-primary/10 blur-[150px]" />
-      <div class="absolute rounded-full -right-20 bottom-20 size-[400px] bg-primary/10 blur-[150px]" />
+      <div class="absolute rounded-full -left-20 top-20 size-[420px] bg-primary/15 blur-[150px]" />
+      <div class="absolute rounded-full -right-20 bottom-20 size-[420px] bg-cyan-400/15 blur-[150px]" />
+      <div class="absolute inset-0 opacity-30 [background:linear-gradient(120deg,transparent_0%,rgba(16,185,129,0.08)_45%,transparent_80%)]" />
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Title -->
@@ -139,11 +156,13 @@ useSeoMeta({
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Headline decoration -->
         <div class="relative mb-8">
-          <UColorModeImage
-            light="/images/light/line-3.svg"
-            dark="/images/dark/line-3.svg"
-            class="absolute -top-10 left-1/2 -translate-x-1/2 h-24"
-          />
+          <svg
+            viewBox="0 0 12 106"
+            xmlns="http://www.w3.org/2000/svg"
+            class="absolute -top-10 left-1/2 h-24 -translate-x-1/2 text-primary"
+          >
+            <path d="M6 0V106" stroke="currentColor" stroke-opacity="0.25" stroke-dasharray="6 8" />
+          </svg>
         </div>
 
         <!-- Title -->
@@ -174,12 +193,9 @@ useSeoMeta({
                 <div class="rounded-2xl border border-default bg-default/50 p-5 sm:p-6 transition-all hover:border-primary/30 hover:bg-default/80 hover:shadow-lg">
                   <div class="flex flex-col gap-4 sm:flex-row sm:items-start">
                     <div class="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-primary/10">
-                      <UColorModeImage
-                        v-if="step.image"
-                        :light="step.image?.light"
-                        :dark="step.image?.dark"
-                        :alt="step.title"
-                        class="size-8"
+                      <UIcon
+                        :name="index === 0 ? 'i-lucide-clipboard-list' : index === 1 ? 'i-lucide-sparkles' : 'i-lucide-truck'"
+                        class="size-8 text-primary"
                       />
                     </div>
                     <div class="flex-1 min-w-0">
@@ -257,11 +273,13 @@ useSeoMeta({
       }"
     >
       <template #headline>
-        <UColorModeImage
-          light="/images/light/line-5.svg"
-          dark="/images/dark/line-5.svg"
-          class="absolute -top-10 sm:top-0 right-1/2 h-24"
-        />
+        <svg
+          viewBox="0 0 12 106"
+          xmlns="http://www.w3.org/2000/svg"
+          class="absolute -top-10 right-1/2 h-24 text-primary sm:top-0"
+        >
+          <path d="M6 0V106" stroke="currentColor" stroke-opacity="0.2" stroke-dasharray="6 8" />
+        </svg>
       </template>
 
       <template #title>
