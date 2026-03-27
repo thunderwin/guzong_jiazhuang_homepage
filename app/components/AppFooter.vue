@@ -1,36 +1,36 @@
 <script setup lang="ts">
 const columns = [{
-  label: 'Resources',
+  label: '核心能力',
   children: [{
-    label: 'Help center'
+    label: 'AI设计提效'
   }, {
-    label: 'Docs'
+    label: '供应链整合'
   }, {
-    label: 'Roadmap'
+    label: '全球交付网络'
   }, {
-    label: 'Changelog'
+    label: '全屋定制项目'
   }]
 }, {
-  label: 'Features',
+  label: '合作方式',
   children: [{
-    label: 'Affiliates'
+    label: '项目制合作'
   }, {
-    label: 'Portal'
+    label: '渠道合作'
   }, {
-    label: 'Jobs'
+    label: '商务对接'
   }, {
-    label: 'Sponsors'
+    label: '交付协同'
   }]
 }, {
-  label: 'Company',
+  label: '关于我们',
   children: [{
-    label: 'About'
+    label: '公司定位'
   }, {
-    label: 'Pricing'
+    label: '团队实力'
   }, {
-    label: 'Careers'
+    label: '增长经验'
   }, {
-    label: 'Blog'
+    label: '长期愿景'
   }]
 }]
 
@@ -43,15 +43,15 @@ function onSubmit() {
   loading.value = true
 
   toast.add({
-    title: 'Subscribed!',
-    description: 'You\'ve been subscribed to our newsletter.'
+    title: '提交成功',
+    description: '我们已收到您的联系方式，将尽快与您沟通。'
   })
 }
 </script>
 
 <template>
   <USeparator
-    icon="i-simple-icons-nuxtdotjs"
+    icon="i-lucide-sofa"
     class="h-px"
   />
 
@@ -63,20 +63,20 @@ function onSubmit() {
             <form @submit.prevent="onSubmit">
               <UFormField
                 name="email"
-                label="Subscribe to our newsletter"
+                label="获取合作方案"
                 size="lg"
               >
                 <UInput
                   v-model="email"
                   type="email"
                   class="w-full"
-                  placeholder="Enter your email"
+                  placeholder="请输入邮箱"
                 >
                   <template #trailing>
                     <UButton
                       type="submit"
                       size="xs"
-                      label="Subscribe"
+                      label="提交"
                     />
                   </template>
                 </UInput>
@@ -89,32 +89,29 @@ function onSubmit() {
 
     <template #left>
       <p class="text-sm text-muted">
-        Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        绎间科技 • 全屋设计出海一体化平台 • © {{ new Date().getFullYear() }}
       </p>
     </template>
 
     <template #right>
       <UButton
-        to="https://go.nuxt.com/discord"
-        target="_blank"
-        icon="i-simple-icons-discord"
-        aria-label="Nuxt on Discord"
+        to="#"
+        icon="i-lucide-message-circle"
+        aria-label="在线咨询"
         color="neutral"
         variant="ghost"
       />
       <UButton
-        to="https://go.nuxt.com/x"
-        target="_blank"
-        icon="i-simple-icons-x"
-        aria-label="Nuxt on X"
+        to="#"
+        icon="i-lucide-phone-call"
+        aria-label="电话联系"
         color="neutral"
         variant="ghost"
       />
       <UButton
-        to="https://github.com/nuxt-ui-templates/landing"
-        target="_blank"
-        icon="i-simple-icons-github"
-        aria-label="Nuxt UI on GitHub"
+        to="#"
+        icon="i-lucide-handshake"
+        aria-label="商务合作"
         color="neutral"
         variant="ghost"
       />

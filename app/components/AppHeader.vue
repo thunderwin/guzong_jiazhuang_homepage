@@ -1,20 +1,64 @@
 <script setup lang="ts">
 const nuxtApp = useNuxtApp()
+const route = useRoute()
 const { activeHeadings, updateHeadings } = useScrollspy()
 
-const items = computed(() => [{
-  label: 'Features',
-  to: '#features',
-  active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
-}, {
-  label: 'Pricing',
-  to: '#pricing',
-  active: activeHeadings.value.includes('pricing')
-}, {
-  label: 'Testimonials',
-  to: '#testimonials',
-  active: activeHeadings.value.includes('testimonials') && !activeHeadings.value.includes('pricing')
-}])
+const items = computed(() => {
+  if (route.path === '/jobs') {
+    return [{
+      label: '返回首页',
+      to: '/'
+    }, {
+      label: '关于我们',
+      to: '/about'
+    }, {
+      label: '岗位列表',
+      to: '#job-list'
+    }, {
+      label: '投递方式',
+      to: '#apply'
+    }]
+  }
+
+  if (route.path === '/about') {
+    return [{
+      label: '返回首页',
+      to: '/'
+    }, {
+      label: '公司定位',
+      to: '#intro'
+    }, {
+      label: '核心能力',
+      to: '#capabilities'
+    }, {
+      label: '团队优势',
+      to: '#team'
+    }, {
+      label: '招聘岗位',
+      to: '/jobs'
+    }]
+  }
+
+  return [{
+    label: '关于我们',
+    to: '/about'
+  }, {
+    label: '核心能力',
+    to: '#features',
+    active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
+  }, {
+    label: '商业模式',
+    to: '#pricing',
+    active: activeHeadings.value.includes('pricing')
+  }, {
+    label: '团队实力',
+    to: '#testimonials',
+    active: activeHeadings.value.includes('testimonials') && !activeHeadings.value.includes('pricing')
+  }, {
+    label: '招聘岗位',
+    to: '/jobs'
+  }]
+})
 
 nuxtApp.hooks.hookOnce('page:finish', () => {
   updateHeadings([
@@ -32,7 +76,6 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
         <AppLogo class="w-auto h-6 shrink-0" />
       </NuxtLink>
 
-      <TemplateMenu />
     </template>
 
     <template #right>
@@ -43,7 +86,8 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
 
       <UButton
-        label="Download App"
+        :label="route.path === '/jobs' ? '立即投递' : '加入我们'"
+        :to="route.path === '/jobs' ? '#apply' : '/jobs'"
         variant="subtle"
         class="hidden lg:block"
       />
@@ -59,7 +103,8 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
       <UButton
         class="mt-4"
-        label="Download App"
+        :label="route.path === '/jobs' ? '立即投递' : '加入我们'"
+        :to="route.path === '/jobs' ? '#apply' : '/jobs'"
         variant="subtle"
         block
       />

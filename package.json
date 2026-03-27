@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "generate": "nuxt generate",
     "dev": "nuxt dev",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -22,6 +23,9 @@
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.15.2",
+    "@oxc-minify/binding-darwin-arm64": "0.117.0",
+    "@oxc-parser/binding-darwin-arm64": "0.117.0",
+    "@oxc-transform/binding-darwin-arm64": "0.117.0",
     "eslint": "^10.0.3",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.2.5"
