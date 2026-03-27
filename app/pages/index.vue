@@ -18,12 +18,13 @@ useSeoMeta({
     class="relative"
   >
     <!-- Background decorations -->
-    <div class="hidden lg:block">
+    <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[650px] overflow-hidden">
       <UColorModeImage
         light="/images/light/line-1.svg"
         dark="/images/dark/line-1.svg"
-        class="absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]"
+        class="absolute left-0 top-0 h-[650px] w-full object-cover opacity-80"
       />
+      <div class="absolute inset-0 bg-gradient-to-b from-primary/6 via-primary/3 to-transparent" />
     </div>
 
     <!-- Hero Section -->

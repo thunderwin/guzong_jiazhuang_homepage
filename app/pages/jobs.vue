@@ -275,27 +275,7 @@ const jobs = [
   <div class="relative overflow-hidden">
     <div class="absolute -top-16 left-1/2 h-80 w-80 -translate-x-1/2 rounded-full bg-primary/20 blur-3xl" />
 
-    <UPageHero
-      title="加入绎间科技"
-      description="我们正在搭建面向全球化家装市场的团队，欢迎业务、技术与内容方向的优秀人才加入。"
-      :ui="{ container: 'md:pt-18 lg:pt-20', title: 'max-w-3xl mx-auto' }"
-    >
-      <template #links>
-        <UButton
-          to="#job-list"
-          label="查看岗位"
-          trailing-icon="i-lucide-arrow-down"
-          size="xl"
-        />
-        <UButton
-          to="#apply"
-          label="投递方式"
-          variant="outline"
-          size="xl"
-          icon="i-lucide-mail"
-        />
-      </template>
-    </UPageHero>
+    
 
     <UPageSection
       id="job-list"
