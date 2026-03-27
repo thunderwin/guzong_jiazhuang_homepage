@@ -21,8 +21,8 @@ section:
   title: '[产业平台]{.text-primary}能力结构：前中后台一体化协同'
   description: 绎间科技聚焦“AI设计提效 + 供应链整合 + 全球本地交付”，打通从方案生成到落地施工的完整链路，解决跨境家装中设计与履约割裂的问题。
   images:
-    mobile: '/images/macbook-mobile.svg'
-    desktop: '/images/macbook.svg'
+    mobile: '/templates/landing.png'
+    desktop: '/templates/landing.png'
   features:
     - title: 前端：AI设计提效系统
       description: 通过自研或整合 AI 设计工具，实现空间设计标准化与快速出图，降低设计门槛和人力成本，提升用户体验与转化效率。

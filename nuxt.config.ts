@@ -13,6 +13,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  ui: {
+    fonts: false
+  },
+
   mdc: {
     highlight: {
       noApiRoute: false
