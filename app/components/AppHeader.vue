@@ -2,63 +2,76 @@
 const nuxtApp = useNuxtApp()
 const route = useRoute()
 const { activeHeadings, updateHeadings } = useScrollspy()
+const { t, locale, setLocale } = useI18n()
 
 const items = computed(() => {
   if (route.path === '/jobs') {
     return [{
-      label: '返回首页',
+      label: t('nav.backToHome'),
       to: '/'
     }, {
-      label: '关于我们',
+      label: t('nav.about'),
       to: '/about'
     }, {
-      label: '岗位列表',
+      label: t('nav.jobList'),
       to: '#job-list'
     }, {
-      label: '投递方式',
+      label: t('nav.apply'),
       to: '#apply'
     }]
   }
 
   if (route.path === '/about') {
     return [{
-      label: '返回首页',
+      label: t('nav.backToHome'),
       to: '/'
     }, {
-      label: '公司定位',
+      label: t('nav.companyPosition'),
       to: '#intro'
     }, {
-      label: '核心能力',
+      label: t('nav.capabilities'),
       to: '#capabilities'
     }, {
-      label: '团队优势',
+      label: t('nav.teamAdvantages'),
       to: '#team'
     }, {
-      label: '招聘岗位',
+      label: t('nav.jobs'),
       to: '/jobs'
     }]
   }
 
   return [{
-    label: '关于我们',
+    label: t('nav.about'),
     to: '/about'
   }, {
-    label: '核心能力',
+    label: t('nav.features'),
     to: '#features',
     active: activeHeadings.value.includes('features') && !activeHeadings.value.includes('pricing')
   }, {
-    label: '商业模式',
+    label: t('nav.pricing'),
     to: '#pricing',
     active: activeHeadings.value.includes('pricing')
   }, {
-    label: '团队实力',
+    label: t('nav.team'),
     to: '#testimonials',
     active: activeHeadings.value.includes('testimonials') && !activeHeadings.value.includes('pricing')
   }, {
-    label: '招聘岗位',
+    label: t('nav.jobs'),
     to: '/jobs'
   }]
 })
+
+const joinButtonText = computed(() =>
+  route.path === '/jobs' ? t('common.applyNow') : t('common.joinUs')
+)
+const joinButtonTo = computed(() =>
+  route.path === '/jobs' ? '#apply' : '/jobs'
+)
+
+const toggleLocale = () => {
+  const newLocale = locale.value === 'zh' ? 'en' : 'zh'
+  setLocale(newLocale)
+}
 
 nuxtApp.hooks.hookOnce('page:finish', () => {
   updateHeadings([
@@ -86,11 +99,20 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
 
       <UButton
-        :label="route.path === '/jobs' ? '立即投递' : '加入我们'"
-        :to="route.path === '/jobs' ? '#apply' : '/jobs'"
+        :label="joinButtonText"
+        :to="joinButtonTo"
         variant="subtle"
         class="hidden lg:block"
       />
+
+      <UButton
+        variant="ghost"
+        color="neutral"
+        class="hidden lg:block"
+        @click="toggleLocale"
+      >
+        {{ locale === 'zh' ? 'EN' : '中文' }}
+      </UButton>
 
       <UColorModeButton />
     </template>
@@ -103,11 +125,20 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       />
       <UButton
         class="mt-4"
-        :label="route.path === '/jobs' ? '立即投递' : '加入我们'"
-        :to="route.path === '/jobs' ? '#apply' : '/jobs'"
+        :label="joinButtonText"
+        :to="joinButtonTo"
         variant="subtle"
         block
       />
+      <UButton
+        variant="outline"
+        color="neutral"
+        class="mt-2"
+        block
+        @click="toggleLocale"
+      >
+        {{ locale === 'zh' ? 'English' : '中文' }}
+      </UButton>
     </template>
   </UHeader>
 </template>

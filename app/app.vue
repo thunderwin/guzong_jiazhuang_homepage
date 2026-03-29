@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const colorMode = useColorMode()
+const { locale } = useI18n()
 
 const color = computed(() => colorMode.value === 'dark' ? '#171717' : 'white')
 
@@ -12,7 +13,7 @@ useHead({
     { rel: 'icon', href: '/favicon.ico' }
   ],
   htmlAttrs: {
-    lang: 'zh-CN'
+    lang: computed(() => locale.value === 'zh' ? 'zh-CN' : 'en-US')
   }
 })
 

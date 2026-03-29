@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const { t } = useI18n()
+const currentYear = new Date().getFullYear()
 </script>
 
 <template>
@@ -10,8 +12,8 @@
   <UFooter>
     <template #left>
       <div class="text-sm text-muted leading-6">
-        <p>绎间科技 • 全屋设计出海一体化平台 • © {{ new Date().getFullYear() }}</p>
-        <p>地址：广东省佛山市南海区桂城街道<br>德高信写字楼3座802室</p>
+        <p>{{ t('footer.copyright', { year: currentYear }) }}</p>
+        <p v-html="t('footer.address').replace('802室', '802室<br>')" />
       </div>
     </template>
 
