@@ -1,6 +1,17 @@
 <script setup lang="ts">
 const { t, locale } = useI18n()
 
+const escapeHtml = (value: string) => value
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;')
+  .replace(/'/g, '&#39;')
+
+const heroTitleHtml = computed(() =>
+  escapeHtml(t('home.hero.title')).replace(/\*\*(.+?)\*\*/g, '<span class="text-primary">$1</span>')
+)
+
 const page = computed(() => ({
   title: t('home.hero.title'),
   description: t('home.hero.description'),
@@ -237,10 +248,9 @@ useSeoMeta({
       </template>
 
       <template #title>
-        <MDC
+        <h1
           :key="`hero-title-${locale}`"
-          :value="page.title"
-          unwrap="p"
+          v-html="heroTitleHtml"
         />
       </template>
     </UPageHero>
