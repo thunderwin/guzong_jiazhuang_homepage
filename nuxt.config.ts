@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   ],
 
   i18n: {
+    restructureDir: false,
     locales: [
       { code: 'zh', name: '中文', file: 'zh.json' },
       { code: 'en', name: 'English', file: 'en.json' }

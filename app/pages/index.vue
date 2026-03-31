@@ -1,26 +1,206 @@
 <script setup lang="ts">
-const { data: page } = await useAsyncData('index', () => queryCollection('content').first())
-if (!page.value) {
-  throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })
-}
+const { t, locale } = useI18n()
+
+const page = computed(() => ({
+  title: t('home.hero.title'),
+  description: t('home.hero.description'),
+  hero: {
+    links: [
+      {
+        label: t('home.hero.cta1'),
+        icon: 'i-lucide-arrow-right',
+        trailing: true,
+        color: 'primary',
+        to: '#features',
+        size: 'xl'
+      },
+      {
+        label: t('home.hero.cta2'),
+        icon: 'i-lucide-message-circle',
+        size: 'xl',
+        color: 'neutral',
+        variant: 'outline',
+        to: '#cta'
+      }
+    ]
+  },
+  section: {
+    title: t('home.section.title'),
+    description: t('home.section.description'),
+    images: {
+      mobile: '/images/house-tech.svg',
+      desktop: '/images/house-tech.svg'
+    },
+    features: [
+      {
+        title: t('home.section.features.frontend.title'),
+        description: t('home.section.features.frontend.description')
+      },
+      {
+        title: t('home.section.features.middle.title'),
+        description: t('home.section.features.middle.description')
+      },
+      {
+        title: t('home.section.features.backend.title'),
+        description: t('home.section.features.backend.description')
+      }
+    ]
+  },
+  features: {
+    title: t('home.features.title'),
+    description: t('home.features.description'),
+    features: [
+      {
+        title: t('home.features.items.aiDesign.title'),
+        description: t('home.features.items.aiDesign.description'),
+        icon: 'i-lucide-sparkles'
+      },
+      {
+        title: t('home.features.items.supplyChain.title'),
+        description: t('home.features.items.supplyChain.description'),
+        icon: 'i-lucide-factory'
+      },
+      {
+        title: t('home.features.items.customization.title'),
+        description: t('home.features.items.customization.description'),
+        icon: 'i-lucide-house-plus'
+      },
+      {
+        title: t('home.features.items.delivery.title'),
+        description: t('home.features.items.delivery.description'),
+        icon: 'i-lucide-globe'
+      },
+      {
+        title: t('home.features.items.growth.title'),
+        description: t('home.features.items.growth.description'),
+        icon: 'i-lucide-trending-up'
+      },
+      {
+        title: t('home.features.items.data.title'),
+        description: t('home.features.items.data.description'),
+        icon: 'i-lucide-chart-column-increasing'
+      }
+    ]
+  },
+  steps: {
+    title: t('home.steps.title'),
+    description: t('home.steps.description'),
+    items: [
+      {
+        title: t('home.steps.items.step1.title'),
+        description: t('home.steps.items.step1.description')
+      },
+      {
+        title: t('home.steps.items.step2.title'),
+        description: t('home.steps.items.step2.description')
+      },
+      {
+        title: t('home.steps.items.step3.title'),
+        description: t('home.steps.items.step3.description')
+      }
+    ]
+  },
+  pricing: {
+    title: t('home.pricing.title'),
+    description: t('home.pricing.description'),
+    plans: [
+      {
+        title: t('home.pricing.projectPlan.title'),
+        description: t('home.pricing.projectPlan.description'),
+        price: t('home.pricing.projectPlan.price'),
+        features: [
+          t('home.pricing.projectPlan.features.0'),
+          t('home.pricing.projectPlan.features.1'),
+          t('home.pricing.projectPlan.features.2'),
+          t('home.pricing.projectPlan.features.3'),
+          t('home.pricing.projectPlan.features.4')
+        ],
+        button: {
+          label: t('home.pricing.projectPlan.button'),
+          color: 'neutral',
+          variant: 'outline',
+          to: '#cta'
+        }
+      },
+      {
+        title: t('home.pricing.channelPlan.title'),
+        description: t('home.pricing.channelPlan.description'),
+        price: t('home.pricing.channelPlan.price'),
+        highlight: true,
+        features: [
+          t('home.pricing.channelPlan.features.0'),
+          t('home.pricing.channelPlan.features.1'),
+          t('home.pricing.channelPlan.features.2'),
+          t('home.pricing.channelPlan.features.3'),
+          t('home.pricing.channelPlan.features.4')
+        ],
+        button: {
+          label: t('home.pricing.channelPlan.button'),
+          variant: 'subtle',
+          to: '#cta'
+        }
+      }
+    ]
+  },
+  testimonials: {
+    title: t('home.testimonials.title'),
+    description: t('home.testimonials.description'),
+    items: [
+      {
+        quote: t('home.testimonials.items.team.quote'),
+        user: {
+          name: t('home.testimonials.items.team.name'),
+          description: t('home.testimonials.items.team.role')
+        }
+      },
+      {
+        quote: t('home.testimonials.items.achievement.quote'),
+        user: {
+          name: t('home.testimonials.items.achievement.name'),
+          description: t('home.testimonials.items.achievement.role')
+        }
+      },
+      {
+        quote: t('home.testimonials.items.vision.quote'),
+        user: {
+          name: t('home.testimonials.items.vision.name'),
+          description: t('home.testimonials.items.vision.role')
+        }
+      }
+    ]
+  },
+  cta: {
+    title: t('home.cta.title'),
+    description: t('home.cta.description'),
+    links: [
+      {
+        label: t('home.cta.button1'),
+        to: '#',
+        trailingIcon: 'i-lucide-arrow-right'
+      },
+      {
+        label: t('home.cta.button2'),
+        to: '#',
+        variant: 'subtle',
+        icon: 'i-lucide-handshake'
+      }
+    ]
+  }
+}))
 
 useSeoMeta({
-  title: page.value.seo?.title || page.value.title,
-  ogTitle: page.value.seo?.title || page.value.title,
-  description: page.value.seo?.description || page.value.description,
-  ogDescription: page.value.seo?.description || page.value.description
+  title: () => t('home.seo.title'),
+  ogTitle: () => t('home.seo.title'),
+  description: () => t('home.seo.description'),
+  ogDescription: () => t('home.seo.description')
 })
 </script>
 
 <template>
-  <div
-    v-if="page"
-    class="relative overflow-hidden"
-  >
+  <div class="relative overflow-hidden">
     <div class="pointer-events-none absolute inset-0 -z-20 bg-[radial-gradient(1200px_520px_at_12%_-8%,rgba(16,185,129,0.22),transparent_62%),radial-gradient(860px_420px_at_88%_8%,rgba(6,182,212,0.18),transparent_60%),linear-gradient(180deg,rgba(15,23,42,0.03),transparent_40%)] dark:bg-[radial-gradient(1200px_520px_at_12%_-8%,rgba(16,185,129,0.28),transparent_62%),radial-gradient(860px_420px_at_88%_8%,rgba(6,182,212,0.24),transparent_60%),linear-gradient(180deg,rgba(2,6,23,0.48),rgba(2,6,23,0)_40%)]" />
     <div class="pointer-events-none absolute inset-0 -z-10 opacity-35 [background-image:linear-gradient(to_right,rgba(148,163,184,0.12)_1px,transparent_1px),linear-gradient(to_bottom,rgba(148,163,184,0.12)_1px,transparent_1px)] [background-size:32px_32px]" />
 
-    <!-- Background decorations -->
     <div class="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[650px] overflow-hidden">
       <svg
         viewBox="0 0 1440 650"
@@ -43,7 +223,6 @@ useSeoMeta({
       <div class="absolute left-1/2 top-[380px] h-40 w-[60%] -translate-x-1/2 rounded-full bg-primary/10 blur-3xl" />
     </div>
 
-    <!-- Hero Section -->
     <UPageHero
       :description="page.description"
       :links="page.hero.links"
@@ -59,30 +238,30 @@ useSeoMeta({
 
       <template #title>
         <MDC
+          :key="`hero-title-${locale}`"
           :value="page.title"
           unwrap="p"
         />
       </template>
     </UPageHero>
 
-    <!-- Platform Section - 前中后台一体化 -->
     <UPageSection
       :description="page.section.description"
       orientation="horizontal"
       :ui="{
-        container: 'lg:px-0 2xl:px-20 mx-0 max-w-none md:mr-10',
+        container: 'lg:px-0 2xl:px-20 mx-0 max-w-none md:mr-10'
       }"
       reverse
       class="relative"
     >
       <template #title>
         <MDC
+          :key="`section-title-${locale}`"
           :value="page.section.title"
           class="sm:*:leading-tight text-3xl sm:text-4xl font-bold"
         />
       </template>
 
-      <!-- Custom 3-column layout for features -->
       <template #features>
         <div class="grid gap-6 lg:grid-cols-3">
           <div
@@ -117,20 +296,17 @@ useSeoMeta({
 
     <USeparator :ui="{ border: 'border-primary/20' }" />
 
-    <!-- Core Features Section - 核心竞争力 -->
     <section id="features" class="relative overflow-hidden py-20">
       <div class="absolute rounded-full -left-20 top-20 size-[420px] bg-primary/15 blur-[150px]" />
       <div class="absolute rounded-full -right-20 bottom-20 size-[420px] bg-cyan-400/15 blur-[150px]" />
       <div class="absolute inset-0 opacity-30 [background:linear-gradient(120deg,transparent_0%,rgba(16,185,129,0.08)_45%,transparent_80%)]" />
 
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Title -->
         <div class="text-center mb-12">
-          <MDC :value="page.features.title" class="text-3xl sm:text-4xl font-bold mb-4" />
+          <MDC :key="`features-title-${locale}`" :value="page.features.title" class="text-3xl sm:text-4xl font-bold mb-4" />
           <p class="text-muted max-w-2xl mx-auto">{{ page.features.description }}</p>
         </div>
 
-        <!-- 6 Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div
             v-for="(feature, index) in page.features.features"
@@ -151,10 +327,8 @@ useSeoMeta({
 
     <USeparator :ui="{ border: 'border-primary/20' }" />
 
-    <!-- Steps Section - Process Flow -->
     <section id="steps" class="relative overflow-hidden py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Headline decoration -->
         <div class="relative mb-8">
           <svg
             viewBox="0 0 12 106"
@@ -165,13 +339,11 @@ useSeoMeta({
           </svg>
         </div>
 
-        <!-- Title -->
         <div class="text-center mb-12">
-          <MDC :value="page.steps.title" class="text-3xl sm:text-4xl font-bold mb-4" />
+          <MDC :key="`steps-title-${locale}`" :value="page.steps.title" class="text-3xl sm:text-4xl font-bold mb-4" />
           <p class="text-muted max-w-2xl mx-auto">{{ page.steps.description }}</p>
         </div>
 
-        <!-- Timeline -->
         <div class="relative max-w-3xl mx-auto">
           <div class="space-y-8">
             <div
@@ -179,16 +351,13 @@ useSeoMeta({
               :key="index"
               class="flex items-start gap-4 sm:gap-6"
             >
-              <!-- Left: Number and line -->
               <div class="relative flex flex-col items-center">
                 <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border-2 border-primary bg-background font-bold text-primary shadow-lg text-lg">
                   {{ index + 1 }}
                 </div>
-                <!-- Connecting line (hidden for last item) -->
                 <div v-if="index < page.steps.items.length - 1" class="mt-2 h-20 w-px bg-gradient-to-b from-primary/50 to-primary/10" />
               </div>
 
-              <!-- Right: Content card -->
               <div class="flex-1 pb-4">
                 <div class="rounded-2xl border border-default bg-default/50 p-5 sm:p-6 transition-all hover:border-primary/30 hover:bg-default/80 hover:shadow-lg">
                   <div class="flex flex-col gap-4 sm:flex-row sm:items-start">
@@ -211,7 +380,6 @@ useSeoMeta({
       </div>
     </section>
 
-    <!-- Pricing Section -->
     <UPageSection
       id="pricing"
       class="mb-32 overflow-hidden"
@@ -220,7 +388,7 @@ useSeoMeta({
       :ui="{ title: 'text-center', description: 'text-center max-w-2xl mx-auto' }"
     >
       <template #title>
-        <MDC :value="page.pricing.title" class="text-3xl sm:text-4xl font-bold" />
+        <MDC :key="`pricing-title-${locale}`" :value="page.pricing.title" class="text-3xl sm:text-4xl font-bold" />
       </template>
 
       <div class="mt-12 grid gap-6 lg:grid-cols-2 max-w-4xl mx-auto">
@@ -262,7 +430,6 @@ useSeoMeta({
       </div>
     </UPageSection>
 
-    <!-- Testimonials Section -->
     <UPageSection
       id="testimonials"
       :title="page.testimonials.title"
@@ -283,7 +450,7 @@ useSeoMeta({
       </template>
 
       <template #title>
-        <MDC :value="page.testimonials.title" class="text-3xl sm:text-4xl font-bold" />
+        <MDC :key="`testimonials-title-${locale}`" :value="page.testimonials.title" class="text-3xl sm:text-4xl font-bold" />
       </template>
 
       <div class="grid gap-6 lg:grid-cols-3">
@@ -310,7 +477,6 @@ useSeoMeta({
 
     <USeparator />
 
-    <!-- CTA Section -->
     <UPageCTA
       v-bind="page.cta"
       variant="naked"
@@ -322,7 +488,7 @@ useSeoMeta({
       }"
     >
       <template #title>
-        <MDC :value="page.cta.title" />
+        <MDC :key="`cta-title-${locale}`" :value="page.cta.title" />
       </template>
 
       <div class="absolute inset-0 -z-10">

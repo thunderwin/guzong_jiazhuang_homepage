@@ -108,7 +108,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       <UButton
         variant="ghost"
         color="neutral"
-        class="hidden lg:block"
+        class="hidden whitespace-nowrap lg:block"
         @click="toggleLocale"
       >
         {{ locale === 'zh' ? 'EN' : '中文' }}
@@ -133,7 +133,7 @@ nuxtApp.hooks.hookOnce('page:finish', () => {
       <UButton
         variant="outline"
         color="neutral"
-        class="mt-2"
+        class="mt-2 whitespace-nowrap"
         block
         @click="toggleLocale"
       >

@@ -13,7 +13,7 @@ const currentYear = new Date().getFullYear()
     <template #left>
       <div class="text-sm text-muted leading-6">
         <p>{{ t('footer.copyright', { year: currentYear }) }}</p>
-        <p v-html="t('footer.address').replace('802室', '802室<br>')" />
+        <p>{{ t('footer.address') }}</p>
       </div>
     </template>
 
