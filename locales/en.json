@@ -218,7 +218,7 @@
   "jobs": {
     "seo": {
       "title": "Join YiJian Tech | Open Positions",
-      "description": "YiJian Tech is hiring: Overseas Social Media Lead, UI Design Lead, Luxury Home Customization Partner, AI Software Engineer, Image & Content Processing Intern."
+      "description": "YiJian Tech is hiring: Overseas Sales Consultant (Custom Furniture Styling), LLM Engineer (AIGC & Multimodal), LLM Architect/Engineer (Agent Workflow), Overseas Social Media Lead, UI Design Lead, and more."
     },
     "openPositions": "Open Positions",
     "selectJob": "Select Position",
@@ -506,6 +506,140 @@
               "Skill improvement: Exposure to and learning of 3D image processing related knowledge, improving image aesthetics and content review capabilities",
               "Team atmosphere: Work with experienced professionals, receive guidance and feedback",
               "Internship certificate: Excellent performers can receive internship certificates and opportunities for conversion or long-term cooperation"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Overseas Sales Consultant (Custom Furniture Styling)",
+        "type": "Full-time",
+        "level": "Sales Consultant / Business Manager",
+        "location": "Foshan / Remote Global Client Communication",
+        "summary": "Target overseas clients (mainly Europe and North America) and drive high-ticket furniture sales through English communication, space styling proposals, and deal conversion.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Target overseas clients (mainly Europe and North America) and complete high-ticket furniture sales + space styling proposal output + conversion",
+              "This is not a customer support role, but a sales-oriented design consultant who understands products, aesthetics, and closing"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Handle leads from WhatsApp, Email, Instagram, Shopify inquiries, and other channels, driving full-cycle conversion from inquiry to close",
+              "Communicate and guide clients based on floor plan, style preference, and budget to build a clear decision path",
+              "Provide whole-space matching recommendations for living room, bedroom, and dining room; bundle sofas, beds, dining tables, and other products into complete packages",
+              "Output lightweight styling proposals (image/text or PDF); focus on selling solutions, not just individual SKUs",
+              "Clearly explain Italian furniture positioning (e.g., B&B, Minotti, Poliform), materials, craftsmanship, and design language in English",
+              "Maintain high-potential and high-net-worth clients and guide repeat purchases (whole-home scope and soft furnishing add-ons)",
+              "Build reusable customer case content and sales materials to improve conversion efficiency",
+              "Actively push decision-making and closing instead of passive follow-up"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Fluent working English (primarily written; spoken is a plus), with sales-level communication ability",
+              "Strong baseline aesthetic sense for furniture and interiors, with understanding of modern, minimalist, and light-luxury styles",
+              "High-ticket sales experience preferred (>$1000) with clear closing mindset and conversion process ownership",
+              "Experience in furniture sales, interior design, soft furnishing, or premium consumer goods is preferred",
+              "Able to maintain high responsiveness across time zones",
+              "Execution-driven and result-oriented, accountable for conversion outcomes"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "Experience serving overseas home furnishing clients or cross-border business operations",
+              "Background in premium furniture brand sales",
+              "Ability to build and iterate reusable proposal templates for different customer scenarios"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will directly connect global high-value customer demand with the company's supply chain capability and drive the upgrade from product selling to solution selling."
+            ]
+          }
+        }
+      },
+      {
+        "title": "LLM Engineer (AIGC & Multimodal Applications)",
+        "type": "Full-time",
+        "level": "Engineer",
+        "location": "Foshan / Remote Collaboration Possible",
+        "summary": "Focus on using LLMs to generate high-quality text, image, audio, and video content to improve production efficiency and user experience.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Focus on using LLMs to generate high-quality text, image, audio, and video content for better production efficiency and user experience",
+              "Reporting line: CTO Nathan"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Build high-efficiency AIGC pipelines based on mainstream LLM and multimodal models (e.g., GPT, Claude, Stable Diffusion, Flux)",
+              "Fine-tune and optimize models with SFT, DPO, LoRA, and related methods for scenarios such as marketing copy, code generation, and style-specific image generation",
+              "Research prompt engineering deeply, build structured prompt libraries, and improve hallucination control and instruction following",
+              "Explore multimodal use cases such as image-text workflows, text-to-video, and visual understanding for business scenarios like automated e-commerce asset generation and intelligent content review"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Bachelor's degree or above in computer science or related fields, with solid Python / Node.js engineering fundamentals",
+              "Familiar with mainstream LLM frameworks and multimodal application development; hands-on experience in text-to-image, text generation, or digital human projects is preferred",
+              "Strong understanding of Transformer architecture and Diffusion Models, with awareness of common model tuning approaches",
+              "Strong quality judgment for generated content and ability to optimize outputs from a user-centric perspective"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will lead the core AIGC capability build-out and significantly improve automation efficiency for design and marketing teams."
+            ]
+          }
+        }
+      },
+      {
+        "title": "LLM Architect/Engineer (Agent Workflow)",
+        "type": "Full-time",
+        "level": "Senior Engineer / Architect",
+        "location": "Foshan / Remote Collaboration Possible",
+        "summary": "Focus on AI-enabling complex business logic and build Agent systems with autonomous planning, tool calling, and self-repair capabilities using LangGraph.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Focus on AI-enabling complex business logic and build Agent systems with autonomous planning, tool calling, and self-repair capabilities using frameworks such as LangGraph"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Design and orchestrate complex Agent workflows with LangGraph / LangChain, including multi-agent collaboration systems",
+              "Use LangGraph graph structures (Nodes & Edges) for loop control, conditional routing, and persistent state management to prevent long-chain state loss",
+              "Design and implement LLM function-calling pipelines that integrate internal APIs, databases, and external search tools",
+              "Build advanced RAG pipelines (e.g., reflective RAG, adaptive RAG) and improve complex QA accuracy through workflow integration",
+              "Build Agent evaluation sets and optimize per-node tracing, latency, and cost across the full workflow"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Deep command of LangGraph or similar graph-based orchestration frameworks; able to model complex business processes as state machines",
+              "Strong architecture design capability with hands-on experience in Asyncio, concurrent systems, and complex state management",
+              "Familiar with vector databases (Milvus / Pinecone), observability and tracing tools (LangSmith / Arize Phoenix), and mainstream LLM APIs",
+              "Strong problem-solving orientation for Agent failure modes, able to design robust retry, correction, and human-in-the-loop mechanisms"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will build the core Agent foundation of the company and directly impact the stability and scalability of complex task automation."
             ]
           }
         }
