@@ -1,7 +1,7 @@
 seo:
-  title: 绎间科技｜全屋设计出海一体化平台
-  description: 佛山绎间科技以 AI 设计驱动、中国供应链支撑与全球交付网络，提供设计+产品+交付的一体化跨境家装解决方案。
-title: 绎间科技：以AI驱动 [全屋设计出海]{.text-primary}
+  title: 佛山市绎间科技有限公司｜全屋设计出海一体化平台
+  description: 佛山市绎间科技有限公司以 AI 设计驱动、中国供应链支撑与全球交付网络，提供设计+产品+交付的一体化跨境家装解决方案。
+title: 佛山市绎间科技有限公司：以AI驱动 [全屋设计出海]{.text-primary}
 description: 我们不是传统单品跨境电商，而是面向海外用户提供“设计 + 产品 + 交付”一体化解决方案的家装品牌。
 hero:
   links:
@@ -16,7 +16,7 @@ hero:
       size: xl
       color: neutral
       variant: outline
-      to: '#cta'
+      to: 'mailto:info@yijianspace.com'
 section:
   title: '[产业平台]{.text-primary}能力结构：前中后台一体化协同'
   description: 绎间科技聚焦“AI设计提效 + 供应链整合 + 全球本地交付”，打通从方案生成到落地施工的完整链路，解决跨境家装中设计与履约割裂的问题。
@@ -100,7 +100,7 @@ pricing:
         label: 提交需求
         color: neutral
         variant: outline
-        to: '#cta'
+        to: 'mailto:info@yijianspace.com'
     - title: 渠道合作
       description: 面向海外设计机构、服务商与渠道伙伴。
       price: 定制合作
@@ -114,7 +114,7 @@ pricing:
       button:
         label: 洽谈合作
         variant: subtle
-        to: '#cta'
+        to: 'mailto:info@yijianspace.com'
 testimonials:
   title: 团队与 [增长基础]{.text-primary}
   description: 创始团队具备成熟的跨境品牌操盘与规模化增长能力。
@@ -133,12 +133,12 @@ testimonials:
         description: 全球化家居生态
 cta:
   title: 让我们一起把 [全屋设计出海]{.text-primary} 做成长期品牌
-  description: 如果你在寻找设计、供应链与全球交付一体化能力，欢迎与绎间科技联系，开启项目评估与合作对接。
+  description: 如果你在寻找设计、供应链与全球交付一体化能力，欢迎与佛山市绎间科技有限公司联系，开启项目评估与合作对接。
   links:
     - label: 立即咨询
-      to: '#'
+      to: 'mailto:info@yijianspace.com'
       trailingIcon: i-lucide-arrow-right
     - label: 商务合作
-      to: '#'
+      to: 'mailto:info@yijianspace.com'
       variant: subtle
       icon: i-lucide-handshake

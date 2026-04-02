@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t, locale } = useI18n()
+const contactEmailLink = 'mailto:info@yijianspace.com'
 
 const escapeHtml = (value: string) => value
   .replace(/&/g, '&amp;')
@@ -31,7 +32,7 @@ const page = computed(() => ({
         size: 'xl',
         color: 'neutral',
         variant: 'outline',
-        to: '#cta'
+        to: contactEmailLink
       }
     ]
   },
@@ -186,12 +187,12 @@ const page = computed(() => ({
     links: [
       {
         label: t('home.cta.button1'),
-        to: '#',
+        to: contactEmailLink,
         trailingIcon: 'i-lucide-arrow-right'
       },
       {
         label: t('home.cta.button2'),
-        to: '#',
+        to: contactEmailLink,
         variant: 'subtle',
         icon: 'i-lucide-handshake'
       }

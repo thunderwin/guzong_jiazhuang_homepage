@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "YiJian Tech",
+    "name": "Foshan Yijian Technology Co., Ltd.",
     "slogan": "Global Home Design & Delivery Platform"
   },
   "nav": {
@@ -24,13 +24,13 @@
     "learnMore": "Learn More"
   },
   "footer": {
-    "copyright": "© {year} YiJian Tech • Global Home Design & Delivery Platform",
+    "copyright": "© {year} Foshan Yijian Technology Co., Ltd. • Global Home Design & Delivery Platform",
     "address": "Address: Room 802, Tower 3, Degao Xin Office Building, Guicheng Street, Nanhai District, Foshan, Guangdong, China"
   },
   "home": {
     "seo": {
-      "title": "YiJian Tech | Global Home Design & Delivery Platform",
-      "description": "Foshan-based YiJian Tech leverages AI design, China supply chain, and global delivery networks to provide integrated cross-border home furnishing solutions."
+      "title": "Foshan Yijian Technology Co., Ltd. | Global Home Design & Delivery Platform",
+      "description": "Foshan Yijian Technology Co., Ltd. leverages AI design, China supply chain, and global delivery networks to provide integrated cross-border home furnishing solutions."
     },
     "hero": {
       "title": "YiJian Tech: AI-Powered **Global Home Design**",
@@ -157,15 +157,15 @@
     },
     "cta": {
       "title": "Let's Build **Global Home Design** Into a Lasting Brand",
-      "description": "If you're looking for integrated design, supply chain, and global delivery capabilities, contact YiJian Tech to start project evaluation and partnership discussions.",
+      "description": "If you're looking for integrated design, supply chain, and global delivery capabilities, contact Foshan Yijian Technology Co., Ltd. to start project evaluation and partnership discussions.",
       "button1": "Contact Now",
       "button2": "Business Partnership"
     }
   },
   "about": {
     "seo": {
-      "title": "About YiJian Tech | Global Home Design & Delivery Platform",
-      "description": "Learn about YiJian Tech's mission, team, and business model. We aim to become China's version of a global home furnishing integrator."
+      "title": "About Foshan Yijian Technology Co., Ltd. | Global Home Design & Delivery Platform",
+      "description": "Learn about Foshan Yijian Technology Co., Ltd.'s mission, team, and business model. We aim to become China's version of a global home furnishing integrator."
     },
     "hero": {
       "title": "About **YiJian Tech**",
@@ -209,7 +209,7 @@
       "p2": "In the long term, YiJian Tech not only aims to become a cross-border home furnishing brand, but hopes to grow into a **replicable spatial solution platform**. In the future, the company will continue expanding to more countries and spatial categories, ultimately building a cross-border home ecosystem with China supply chain as the base and global design and service networks as touchpoints."
     },
     "cta": {
-      "title": "Partner with YiJian Tech",
+      "title": "Partner with Foshan Yijian Technology Co., Ltd.",
       "description": "Whether you're a global customer seeking whole-house customization solutions or talented individuals looking to join us, we welcome your contact.",
       "button1": "View Open Positions",
       "button2": "Contact Us"
@@ -217,8 +217,8 @@
   },
   "jobs": {
     "seo": {
-      "title": "Join YiJian Tech | Open Positions",
-      "description": "YiJian Tech is hiring: Overseas Sales Consultant (Custom Furniture Styling), LLM Engineer (AIGC & Multimodal), LLM Architect/Engineer (Agent Workflow), Overseas Social Media Lead, UI Design Lead, and more."
+      "title": "Join Foshan Yijian Technology Co., Ltd. | Open Positions",
+      "description": "Foshan Yijian Technology Co., Ltd. is hiring: Overseas Sales Consultant (Custom Furniture Styling), LLM Engineer (AIGC & Multimodal), LLM Architect/Engineer (Agent Workflow), Overseas Social Media Lead, UI Design Lead, and more."
     },
     "openPositions": "Open Positions",
     "selectJob": "Select Position",
@@ -239,7 +239,7 @@
       },
       "contact": {
         "title": "Contact Method",
-        "content": "Contact our hiring team via email or WeChat"
+        "content": "Foshan Yijian Technology Co., Ltd. contact email: info@yijianspace.com (all contact actions open your email client directly)"
       },
       "feedback": {
         "title": "Response Time",

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
+const contactEmailLink = 'mailto:info@yijianspace.com'
 
 useSeoMeta({
   title: () => t('about.seo.title'),
@@ -133,7 +134,7 @@ useSeoMeta({
           />
           <UButton
             :label="t('about.cta.button2')"
-            to="#contact"
+            :to="contactEmailLink"
             variant="outline"
             icon="i-lucide-mail"
             size="xl"
