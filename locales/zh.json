@@ -239,7 +239,7 @@
       },
       "contact": {
         "title": "对接方式",
-        "content": "佛山市绎间科技有限公司联系邮箱：info@yijianspace.com（点击页面联系入口可直接发邮件）"
+        "content": "佛山市绎间科技有限公司联系邮箱：info{'@'}yijianspace.com（点击页面联系入口可直接发邮件）"
       },
       "feedback": {
         "title": "反馈周期",

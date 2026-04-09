@@ -239,7 +239,7 @@
       },
       "contact": {
         "title": "Contact Method",
-        "content": "Foshan Yijian Technology Co., Ltd. contact email: info@yijianspace.com (all contact actions open your email client directly)"
+        "content": "Foshan Yijian Technology Co., Ltd. contact email: info{'@'}yijianspace.com (all contact actions open your email client directly)"
       },
       "feedback": {
         "title": "Response Time",
