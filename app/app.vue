@@ -48,3 +48,21 @@ useSeoMeta({
     <AppFooter />
   </UApp>
 </template>
+
+<style>
+/* 导航下拉菜单毛玻璃效果 - 全局样式 */
+nav ul[role="menu"],
+nav ul[role="listbox"],
+[data-headlessui-state] > div > ul {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* 下拉菜单容器 */
+[data-headlessui-state] > div[class*="absolute"] {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+</style>

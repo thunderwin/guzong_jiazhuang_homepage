@@ -6,3 +6,21 @@
 @theme {
   --font-sans: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
 }
+
+/* 导航下拉菜单毛玻璃效果 */
+/* 针对 NuxtUI NavigationMenu 下拉面板 */
+[data-headlessui-state] > [data-headlessui-state],
+li[data-headlessui-state] > div[data-headlessui-state],
+ul[data-headlessui-state],
+nav > div > ul {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* 针对绝对定位的下拉容器 */
+.absolute.top-full {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}

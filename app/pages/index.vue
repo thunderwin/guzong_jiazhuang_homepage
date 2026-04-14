@@ -256,6 +256,12 @@ useSeoMeta({
       </template>
     </UPageHero>
 
+    <section id="projects" class="py-8 relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ImageCarousel />
+      </div>
+    </section>
+
     <UPageSection
       :description="page.section.description"
       orientation="horizontal"

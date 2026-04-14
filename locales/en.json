@@ -5,10 +5,16 @@
   },
   "nav": {
     "home": "Home",
+    "brand": "Our Brand",
+    "brandScale": "Global Scale",
+    "brandArchive": "Narrative Archive",
+    "brandPortfolio": "Brand Portfolio",
+    "brandShowcase": "Details Introduction",
     "about": "About Us",
     "features": "Capabilities",
     "pricing": "Business Model",
     "team": "Our Team",
+    "projects": "Projects",
     "jobs": "Careers",
     "backToHome": "Back to Home",
     "jobList": "Open Positions",
@@ -31,6 +37,9 @@
     "seo": {
       "title": "Foshan Yijian Technology Co., Ltd. | Global Home Design & Delivery Platform",
       "description": "Foshan Yijian Technology Co., Ltd. leverages AI design, China supply chain, and global delivery networks to provide integrated cross-border home furnishing solutions."
+    },
+    "carousel": {
+      "title": "**Project Showcase**"
     },
     "hero": {
       "title": "YiJian Tech: AI-Powered **Global Home Design**",
@@ -160,6 +169,77 @@
       "description": "If you're looking for integrated design, supply chain, and global delivery capabilities, contact Foshan Yijian Technology Co., Ltd. to start project evaluation and partnership discussions.",
       "button1": "Contact Now",
       "button2": "Business Partnership"
+    }
+  },
+  "brand": {
+    "seo": {
+      "title": "Our Brand Portfolio | Foshan Yijian Technology Co., Ltd.",
+      "description": "Discover our brand evolution and global footprint, from strategic milestones since 2016 to present."
+    },
+    "hero": {
+      "title1": "Redefining",
+      "title2": "Modern Living",
+      "description": "A global strategic conglomerate specializing in cross-border e-commerce, architectural aesthetics, and supply chain precision."
+    },
+    "scale": {
+      "title1": "Scaled for",
+      "title2": "Global Impact",
+      "desc1": "Established in 2016, we have transformed from a trade-focused entity into a technology-driven global conglomerate.",
+      "desc2": "Our specialized supply chain infrastructure powers a portfolio of lifestyle brands that resonate across 40+ countries, with a projected revenue of $200 Million by 2025."
+    },
+    "stats": {
+      "revenue": "Revenue Target",
+      "revenueSub": "Projected 2025",
+      "presence": "Global Presence",
+      "presenceSub": "Active Territories",
+      "hubs": "Brand Hubs",
+      "hubsSub": "Specialized Entities",
+      "growth": "Growth Rate",
+      "growthSub": "YoY Expansion"
+    },
+    "archive": {
+      "title1": "The Narrative",
+      "title2": "Archive",
+      "description": "A chronicle of strategic evolution and architectural milestones."
+    },
+    "timeline": {
+      "trade": "Foundational Trade",
+      "tradeDesc": "Initialization of our cross-border operations, establishing the framework for international trade excellence.",
+      "aesthetic": "Aesthetic Innovation",
+      "aestheticDesc": "Transitioning into home aesthetics, merging technology with modern furniture design to redefine living spaces.",
+      "operations": "Unified Operations",
+      "operationsDesc": "A holistic integration of our global entities under one vision of strategic excellence and digital innovation.",
+      "frontier": "The Next Frontier",
+      "frontierDesc": "Exploring editorial-driven spatial design and high-end architectural furniture for the next generation."
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "heritage": "Heritage Collective",
+      "heritageYear": "Est. 2016",
+      "logistics": "New Era Logistics",
+      "logisticsYear": "Est. 2023",
+      "heritageBrands": {
+        "popmaison": "Focusing on home aesthetics, merging technology with modern furniture design",
+        "kate": "Perfect blend of fashion and functionality, creating modern living spaces",
+        "everwallpaper": "Innovative wallpaper brand, infusing artistic soul into walls",
+        "inyouths": "Young lifestyle brand, pursuing simplicity and quality",
+        "neutype": "New form design, defining future lifestyles",
+        "nabis": "Intersection of art and practicality, creating unique spatial experiences"
+      },
+      "logisticsBrands": {
+        "boxking": "Professional packaging solutions, ensuring safe product transport",
+        "leafpackage": "Eco-friendly packaging philosophy, practicing sustainability",
+        "vendoroad": "Efficient logistics channels, connecting global supply chains"
+      }
+    },
+    "cta": {
+      "title": "Explore Our **Brand Vision**",
+      "description": "Learn more about our global footprint and strategic evolution."
+    },
+    "showcase": {
+      "title1": "Details",
+      "title2": "Introduction",
+      "description": "Dedicated to the industry for years, empowering industrial upgrading with innovative technology, creating excellence together."
     }
   },
   "about": {

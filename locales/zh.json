@@ -5,10 +5,16 @@
   },
   "nav": {
     "home": "首页",
+    "brand": "品牌矩阵",
+    "brandScale": "规模影响力",
+    "brandArchive": "叙事档案",
+    "brandPortfolio": "品牌组合",
+    "brandShowcase": "详情介绍",
     "about": "关于我们",
     "features": "核心能力",
     "pricing": "商业模式",
     "team": "团队实力",
+    "projects": "项目展示",
     "jobs": "招聘岗位",
     "backToHome": "返回首页",
     "jobList": "岗位列表",
@@ -31,6 +37,9 @@
     "seo": {
       "title": "佛山市绎间科技有限公司｜全屋设计出海一体化平台",
       "description": "佛山市绎间科技有限公司以 AI 设计驱动、中国供应链支撑与全球交付网络，提供设计+产品+交付的一体化跨境家装解决方案。"
+    },
+    "carousel": {
+      "title": "**项目展示**"
     },
     "hero": {
       "title": "绎间科技：以AI驱动 **全屋设计出海**",
@@ -160,6 +169,77 @@
       "description": "如果你在寻找设计、供应链与全球交付一体化能力，欢迎与佛山市绎间科技有限公司联系，开启项目评估与合作对接。",
       "button1": "立即咨询",
       "button2": "商务合作"
+    }
+  },
+  "brand": {
+    "seo": {
+      "title": "品牌矩阵｜佛山市绎间科技有限公司",
+      "description": "了解我们的品牌发展历程和全球化布局，从2016年至今的战略演进与里程碑。"
+    },
+    "hero": {
+      "title1": "定义",
+      "title2": "现代生活",
+      "description": "专注于跨境电商、建筑美学与供应链精度的全球战略型企业集团。"
+    },
+    "scale": {
+      "title1": "规模化的",
+      "title2": "全球影响力",
+      "desc1": "自2016年成立以来，我们已从贸易型企业转型为技术驱动的全球企业集团。",
+      "desc2": "我们专业的供应链基础设施支撑着覆盖40多个国家的生活方式品牌组合，预计2025年营收达到2亿美元。"
+    },
+    "stats": {
+      "revenue": "营收目标",
+      "revenueSub": "2025年预期",
+      "presence": "全球布局",
+      "presenceSub": "活跃地区",
+      "hubs": "品牌中心",
+      "hubsSub": "专业实体",
+      "growth": "增长率",
+      "growthSub": "年同比扩张"
+    },
+    "archive": {
+      "title1": "叙事",
+      "title2": "档案",
+      "description": "战略演进与建筑里程碑的编年史。"
+    },
+    "timeline": {
+      "trade": "基础贸易",
+      "tradeDesc": "启动跨境运营，建立国际贸易卓越框架。",
+      "aesthetic": "美学创新",
+      "aestheticDesc": "转型家居美学领域，融合技术与现代家具设计，重新定义生活空间。",
+      "operations": "统一运营",
+      "operationsDesc": "在全球愿景下整合各实体，实现战略卓越与数字创新。",
+      "frontier": "新征程",
+      "frontierDesc": "探索编辑驱动的空间设计，为下一代打造高端建筑家具。"
+    },
+    "portfolio": {
+      "title": "品牌组合",
+      "heritage": "传承系列",
+      "heritageYear": "始于 2016",
+      "logistics": "新时代物流",
+      "logisticsYear": "始于 2023",
+      "heritageBrands": {
+        "popmaison": "专注于家居美学，融合技术与现代家具设计",
+        "kate": "时尚与功能的完美结合，打造现代生活空间",
+        "everwallpaper": "创新壁纸品牌，为墙面注入艺术灵魂",
+        "inyouths": "年轻化家居品牌，追求简约与品质",
+        "neutype": "新型态设计，定义未来生活方式",
+        "nabis": "艺术与实用的交汇，创造独特空间体验"
+      },
+      "logisticsBrands": {
+        "boxking": "专业包装解决方案，保障产品安全运输",
+        "leafpackage": "环保包装理念，践行可持续发展",
+        "vendoroad": "高效物流通道，连接全球供应链"
+      }
+    },
+    "cta": {
+      "title": "探索我们的 **品牌愿景**",
+      "description": "了解更多关于我们的全球化布局与战略演进。"
+    },
+    "showcase": {
+      "title1": "详情",
+      "title2": "介绍",
+      "description": "专注行业领域数载，以创新技术赋能产业升级，携手共创卓越价值。"
     }
   },
   "about": {
