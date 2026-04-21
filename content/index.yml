@@ -1,0 +1,144 @@
+seo:
+  title: 佛山市绎间科技有限公司｜全屋设计出海一体化平台
+  description: 佛山市绎间科技有限公司以 AI 设计驱动、中国供应链支撑与全球交付网络，提供设计+产品+交付的一体化跨境家装解决方案。
+title: 佛山市绎间科技有限公司：以AI驱动 [全屋设计出海]{.text-primary}
+description: 我们不是传统单品跨境电商，而是面向海外用户提供“设计 + 产品 + 交付”一体化解决方案的家装品牌。
+hero:
+  links:
+    - label: 了解核心能力
+      icon: i-lucide-arrow-right
+      trailing: true
+      color: primary
+      to: '#features'
+      size: xl
+    - label: 联系我们
+      icon: i-lucide-message-circle
+      size: xl
+      color: neutral
+      variant: outline
+      to: 'mailto:info@yijianspace.com'
+section:
+  title: '[产业平台]{.text-primary}能力结构：前中后台一体化协同'
+  description: 绎间科技聚焦“AI设计提效 + 供应链整合 + 全球本地交付”，打通从方案生成到落地施工的完整链路，解决跨境家装中设计与履约割裂的问题。
+  images:
+    mobile: '/images/house-tech.svg'
+    desktop: '/images/house-tech.svg'
+  features:
+    - title: 前端：AI设计提效系统
+      description: 通过自研或整合 AI 设计工具，实现空间设计标准化与快速出图，降低设计门槛和人力成本，提升用户体验与转化效率。
+    - title: 中台：中国供应链整合能力
+      description: 依托佛山成熟家居制造产业带，整合优质工厂资源，推动产品标准化、模块化与成本优化，构建全球市场的价格与交付优势。
+    - title: 后端：全球设计与本地交付网络
+      description: 连接海外设计师与本地安装服务体系，形成从方案确认到落地施工的闭环交付，提升项目确定性与客户满意度。
+features:
+  title: 绎间科技的 [核心竞争力]{.text-primary}
+  description: 围绕“品牌力 × 供应链 × 渠道”，构建可复制、可扩张的跨境家装平台能力。
+  features:
+    - title: AI空间设计引擎
+      description: 实现在线可视化方案与快速出图，让海外用户所见即所得。
+      icon: i-lucide-sparkles
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: 产业带深度整合
+      description: 深耕佛山家居产业带，建立稳定、高质、可规模化的供应体系。
+      icon: i-lucide-factory
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: 全屋定制能力
+      description: 覆盖整体厨房、全屋定制、空间改造等高客单项目场景。
+      icon: i-lucide-house-plus
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: 全球本地化履约
+      description: 对接海外设计师与安装服务，缩短交付链路并提升落地质量。
+      icon: i-lucide-globe
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: 跨境增长操盘能力
+      description: 团队具备 5 个千万美元级 DTC 品牌打造经验，擅长品牌与流量转化。
+      icon: i-lucide-trending-up
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+    - title: 数据化运营闭环
+      description: 以需求获取、设计转化、供应履约到复购沉淀的全链路指标驱动增长。
+      icon: i-lucide-chart-column-increasing
+      ui:
+        leading: bg-accented/50 p-2 rounded-md border border-muted border-dashed
+steps:
+  title: 从需求到交付的 [3步闭环]{.text-primary}
+  description: 以高客单家装项目为核心切入，形成可规模化复制的跨境履约路径。
+  items:
+    - title: 获取需求与空间诊断
+      description: 用户通过独立站提交空间需求，系统快速完成场景识别与初步方案方向建议。
+      image:
+        light: '/images/light/connect.svg'
+        dark: '/images/dark/connect.svg'
+    - title: AI设计与方案确认
+      description: AI 快速生成设计方案并持续迭代，缩短沟通周期，提升方案确认效率与转化率。
+      image:
+        light: '/images/light/optimize.svg'
+        dark: '/images/dark/optimize.svg'
+    - title: 供应链履约与本地交付
+      description: 由中国供应链完成生产与发运，并联合本地服务网络实现安装落地与交付闭环。
+      image:
+        light: '/images/light/track.svg'
+        dark: '/images/dark/track.svg'
+pricing:
+  title: 我们的 [商业模式]{.text-primary}
+  description: 聚焦高客单家装项目，追求单客高价值与长期品牌沉淀，而非低毛利单品竞争。
+  plans:
+    - title: 项目制合作
+      description: 适用于整体厨房、全屋定制与空间改造项目。
+      price: 按项目评估
+      features:
+        - 需求诊断与空间规划
+        - AI 设计方案与可视化输出
+        - 产品模块化配置与报价优化
+        - 生产、物流、安装协同交付
+        - 项目管理与售后支持
+      button:
+        label: 提交需求
+        color: neutral
+        variant: outline
+        to: 'mailto:info@yijianspace.com'
+    - title: 渠道合作
+      description: 面向海外设计机构、服务商与渠道伙伴。
+      price: 定制合作
+      highlight: true
+      features:
+        - 标准化产品与方案能力输出
+        - 联合品牌与市场拓展支持
+        - 供应链与交付能力共享
+        - 多国家市场复制落地支持
+        - 长期增长与运营协同
+      button:
+        label: 洽谈合作
+        variant: subtle
+        to: 'mailto:info@yijianspace.com'
+testimonials:
+  title: 团队与 [增长基础]{.text-primary}
+  description: 创始团队具备成熟的跨境品牌操盘与规模化增长能力。
+  items:
+    - quote: 我们来自独立站头部卖家体系，长期专注品牌打造与流量转化，具备从 0 到 1 再到规模化增长的完整方法论。
+      user:
+        name: 创始团队
+        description: 品牌与增长
+    - quote: 团队已成功打造 5 个年销千万美元级 DTC 品牌，累计跨境电商操盘规模超 10 亿人民币。
+      user:
+        name: 业务战绩
+        description: 跨境实战经验
+    - quote: 我们将持续构建“品牌力 × 供应链 × 渠道”复合壁垒，成为中国版全球化家装整合服务平台。
+      user:
+        name: 长期愿景
+        description: 全球化家居生态
+cta:
+  title: 让我们一起把 [全屋设计出海]{.text-primary} 做成长期品牌
+  description: 如果你在寻找设计、供应链与全球交付一体化能力，欢迎与佛山市绎间科技有限公司联系，开启项目评估与合作对接。
+  links:
+    - label: 立即咨询
+      to: 'mailto:info@yijianspace.com'
+      trailingIcon: i-lucide-arrow-right
+    - label: 商务合作
+      to: 'mailto:info@yijianspace.com'
+      variant: subtle
+      icon: i-lucide-handshake

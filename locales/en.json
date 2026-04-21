@@ -1,0 +1,762 @@
+{
+  "app": {
+    "name": "Foshan Yijian Technology Co., Ltd.",
+    "slogan": "Global Home Design & Delivery Platform"
+  },
+  "nav": {
+    "home": "Home",
+"about": "About Us",
+    "features": "Capabilities",
+    "pricing": "Business Model",
+    "team": "Our Team",
+    "projects": "Projects",
+    "jobs": "Careers",
+    "backToHome": "Back to Home",
+    "jobList": "Open Positions",
+    "apply": "How to Apply",
+    "companyPosition": "Our Position",
+    "capabilities": "Capabilities",
+    "teamAdvantages": "Team Strengths"
+  },
+  "common": {
+    "joinUs": "Join Us",
+    "applyNow": "Apply Now",
+    "contactUs": "Contact Us",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "copyright": "© {year} Foshan Yijian Technology Co., Ltd. • Global Home Design & Delivery Platform",
+    "address": "Address: Room 802, Tower 3, Degao Xin Office Building, Guicheng Street, Nanhai District, Foshan, Guangdong, China"
+  },
+  "home": {
+    "seo": {
+      "title": "Foshan Yijian Technology Co., Ltd. | Global Home Design & Delivery Platform",
+      "description": "Foshan Yijian Technology Co., Ltd. leverages AI design, China supply chain, and global delivery networks to provide integrated cross-border home furnishing solutions."
+    },
+    "carousel": {
+      "title": "**Project Showcase**"
+    },
+    "hero": {
+      "title": "YiJian Tech: AI-Powered **Global Home Design**",
+      "description": "We're not a traditional cross-border e-commerce seller. We're a home furnishing brand providing integrated \"Design + Products + Delivery\" solutions for global customers.",
+      "cta1": "Explore Capabilities",
+      "cta2": "Contact Us"
+    },
+    "section": {
+      "title": "**Platform Architecture**: Front-Middle-Back Office Integration",
+      "description": "YiJian Tech focuses on \"AI Design + Supply Chain Integration + Global Local Delivery\", connecting the complete chain from design to construction, solving the disconnect in cross-border home furnishing.",
+      "features": {
+        "frontend": {
+          "title": "Front Office: AI Design Efficiency",
+          "description": "Through self-developed and integrated AI design tools, we standardize spatial design and enable rapid rendering, reducing design barriers and labor costs while improving user experience and conversion."
+        },
+        "middle": {
+          "title": "Middle Office: China Supply Chain Integration",
+          "description": "Leveraging Foshan's mature home manufacturing industry, we integrate quality factory resources, promoting product standardization, modularization, and cost optimization to build global price and delivery advantages."
+        },
+        "backend": {
+          "title": "Back Office: Global Design & Local Delivery",
+          "description": "Connecting overseas designers with local installation service networks, creating a closed-loop delivery from design confirmation to construction, improving project certainty and customer satisfaction."
+        }
+      }
+    },
+    "features": {
+      "title": "YiJian Tech's **Core Competencies**",
+      "description": "Building a replicable, scalable cross-border home furnishing platform around \"Brand × Supply Chain × Channels\".",
+      "items": {
+        "aiDesign": {
+          "title": "AI Spatial Design Engine",
+          "description": "Enable online visualization and rapid rendering, letting global customers see exactly what they'll get."
+        },
+        "supplyChain": {
+          "title": "Deep Industry Integration",
+          "description": "Deep roots in Foshan's home manufacturing cluster, establishing stable, high-quality, scalable supply systems."
+        },
+        "customization": {
+          "title": "Whole-House Customization",
+          "description": "Covering full kitchens, whole-house customization, and space renovation for high-value projects."
+        },
+        "delivery": {
+          "title": "Global Localized Fulfillment",
+          "description": "Partnering with overseas designers and installation services to shorten delivery chains and improve quality."
+        },
+        "growth": {
+          "title": "Cross-Border Growth Expertise",
+          "description": "Team has built 5 DTC brands with $10M+ annual sales, excelling in brand building and traffic conversion."
+        },
+        "data": {
+          "title": "Data-Driven Operations",
+          "description": "Full-funnel metrics from demand acquisition to design conversion, supply fulfillment, and repeat purchases."
+        }
+      }
+    },
+    "steps": {
+      "title": "3-Step **Closed-Loop Process**",
+      "description": "Focusing on high-value home projects as the entry point, creating a scalable, replicable cross-border fulfillment path.",
+      "items": {
+        "step1": {
+          "title": "Demand Capture & Space Assessment",
+          "description": "Users submit space requirements through our standalone site, with rapid scenario identification and preliminary design direction recommendations."
+        },
+        "step2": {
+          "title": "AI Design & Proposal Confirmation",
+          "description": "AI rapidly generates design proposals with continuous iteration, shortening communication cycles and improving confirmation efficiency and conversion rates."
+        },
+        "step3": {
+          "title": "Supply Chain Fulfillment & Local Delivery",
+          "description": "China supply chain handles production and shipping, combined with local service networks for installation and delivery closure."
+        }
+      }
+    },
+    "pricing": {
+      "title": "Our **Business Model**",
+      "description": "Focusing on high-value home projects, pursuing high customer value and long-term brand equity rather than low-margin product competition.",
+      "projectPlan": {
+        "title": "Project-Based Collaboration",
+        "description": "For full kitchens, whole-house customization, and space renovation projects.",
+        "price": "Project-Based Pricing",
+        "features": [
+          "Demand assessment and space planning",
+          "AI design proposals and visualization",
+          "Product modular configuration and quote optimization",
+          "Coordinated production, logistics, and installation",
+          "Project management and after-sales support"
+        ],
+        "button": "Submit Inquiry"
+      },
+      "channelPlan": {
+        "title": "Channel Partnership",
+        "description": "For overseas design firms, service providers, and channel partners.",
+        "price": "Custom Partnership",
+        "features": [
+          "Standardized product and solution capability output",
+          "Co-branding and market expansion support",
+          "Shared supply chain and delivery capabilities",
+          "Multi-country market replication support",
+          "Long-term growth and operational collaboration"
+        ],
+        "button": "Discuss Partnership"
+      }
+    },
+    "testimonials": {
+      "title": "Team & **Growth Foundation**",
+      "description": "Founding team has mature cross-border brand operations and scalable growth capabilities.",
+      "items": {
+        "team": {
+          "quote": "We come from top standalone site seller systems, long focused on brand building and traffic conversion, with complete methodology from 0 to 1 to scale.",
+          "name": "Founding Team",
+          "role": "Brand & Growth"
+        },
+        "achievement": {
+          "quote": "Team has successfully built 5 DTC brands with $10M+ annual sales, with cumulative cross-border e-commerce GMV exceeding 1 billion RMB.",
+          "name": "Track Record",
+          "role": "Cross-Border Experience"
+        },
+        "vision": {
+          "quote": "We will continue building \"Brand × Supply Chain × Channel\" competitive moats to become China's global home furnishing integration service platform.",
+          "name": "Long-Term Vision",
+          "role": "Global Home Ecosystem"
+        }
+      }
+    },
+    "cta": {
+      "title": "Let's Build **Global Home Design** Into a Lasting Brand",
+      "description": "If you're looking for integrated design, supply chain, and global delivery capabilities, contact Foshan Yijian Technology Co., Ltd. to start project evaluation and partnership discussions.",
+      "button1": "Contact Now",
+      "button2": "Business Partnership"
+    }
+  },
+  "about": {
+    "seo": {
+      "title": "About Foshan Yijian Technology Co., Ltd. | Global Home Design & Delivery Platform",
+      "description": "Learn about Foshan Yijian Technology Co., Ltd.'s mission, team, and business model. We aim to become China's version of a global home furnishing integrator."
+    },
+    "hero": {
+      "title": "About **YiJian Tech**",
+      "description": "YiJian Tech is a cross-border home design brand focusing on **global whole-house design**, with AI design + China supply chain + global delivery at its core, serving overseas designers, builders, contractors, and mid-to-high-end customers with **design, products, and delivery** as an integrated spatial solution. Based in Foshan's industrial cluster, combined with mature cross-border brand operations and global delivery integration capabilities, we target high-value projects like full kitchens, whole-house customization, and space renovation, with the long-term goal of building a replicable global spatial solution platform."
+    },
+    "position": {
+      "title": "Company Positioning",
+      "p1": "YiJian Tech is a new cross-border home design brand based in Foshan, focusing on the high-potential \"global whole-house design\" track, committed to building a cross-border home furnishing industry platform with **AI design-driven, China supply chain-supported, global delivery-integrated** capabilities at its core.",
+      "p2": "The company is **not** positioned as a traditional furniture exporter or single-product cross-border e-commerce seller, but as a home furnishing brand providing **\"Design + Products + Delivery\" integrated solutions** for global customers. We aim to upgrade China's home industry from \"selling products globally\" to \"selling integrated spatial solutions globally\", gradually becoming **China's version of a global home furnishing integrator**.",
+      "p3": "In terms of capability structure, YiJian Tech has built a complete core competency system around the front office, middle office, and back office of the home furnishing industry chain."
+    },
+    "capabilities": {
+      "title": "Core Capability System",
+      "frontend": {
+        "title": "Front Office: AI Design Efficiency",
+        "description": "In the front office, the company will integrate AI design tools to standardize spatial design, enable rapid rendering and online visualization, significantly reducing design barriers and labor costs, improving user experience and conversion efficiency, and gradually establishing \"what you see is what you get\" online design capabilities, allowing overseas designers, builders, and end customers to complete proposal confirmation and decision-making more efficiently."
+      },
+      "middle": {
+        "title": "Middle Office: Supply Chain Collaboration",
+        "description": "In the middle office, leveraging Foshan's mature home manufacturing industry cluster, the company integrates quality factory resources, promoting product standardization, modularization, and cost optimization, establishing a supply chain collaboration system for global markets, ensuring stronger price competitiveness, quality stability, and delivery efficiency advantages in global markets."
+      },
+      "backend": {
+        "title": "Back Office: Global Delivery Integration",
+        "description": "In the back office, the company will continuously connect overseas designer resources with local installation service systems,打通 the complete chain from proposal confirmation, product configuration, production delivery, logistics distribution to on-site installation, solving the core pain point of \"design and delivery disconnect\" in traditional cross-border home furnishing, forming a truly implementable integrated delivery closed loop."
+      }
+    },
+    "team": {
+      "title": "Team Strengths",
+      "subtitle": "Mature Cross-Border Brand Operations Experience",
+      "p1": "Beyond the business model itself, another core advantage of YiJian Tech lies in team capabilities. The founding team has strong cross-border brand operations and industry integration capabilities, with long-term deep focus on standalone sites and DTC brand businesses, having successfully built **5 brands with $10M+ annual sales** (2 of which have long ranked #1 in North American categories), with cumulative cross-border e-commerce GMV exceeding **1 billion RMB**.",
+      "p2": "The team has established mature methodologies and execution systems in brand positioning, standalone site operations, overseas traffic acquisition, content marketing, conversion optimization, user growth, supply chain collaboration, multi-platform operations, and scalable expansion.",
+      "stats": {
+        "brands": { "value": "5+", "label": "$10M+ Brands" },
+        "revenue": { "value": "1B+", "label": "Cumulative GMV (RMB)" },
+        "ranking": { "value": "No.1", "label": "North America Leader" }
+      }
+    },
+    "business": {
+      "title": "Business Model & Long-Term Vision",
+      "p1": "YiJian Tech takes **North American high-value home projects** as the core entry point, including full kitchens, whole-house customization, and space renovation, acquiring global customer demand through standalone sites and overseas social media, achieving rapid conversion through AI design tools, and completing fulfillment through China supply chain and local delivery networks, forming a **\"high customer value, high service value-add, high reputation accumulation\"** growth path.",
+      "p2": "In the long term, YiJian Tech not only aims to become a cross-border home furnishing brand, but hopes to grow into a **replicable spatial solution platform**. In the future, the company will continue expanding to more countries and spatial categories, ultimately building a cross-border home ecosystem with China supply chain as the base and global design and service networks as touchpoints."
+    },
+    "cta": {
+      "title": "Partner with Foshan Yijian Technology Co., Ltd.",
+      "description": "Whether you're a global customer seeking whole-house customization solutions or talented individuals looking to join us, we welcome your contact.",
+      "button1": "View Open Positions",
+      "button2": "Contact Us"
+    }
+  },
+  "jobs": {
+    "seo": {
+      "title": "Join Foshan Yijian Technology Co., Ltd. | Open Positions",
+      "description": "Foshan Yijian Technology Co., Ltd. is hiring: Overseas Sales Consultant (Custom Furniture Styling), LLM Engineer (AIGC & Multimodal), LLM Architect/Engineer (Agent Workflow), Overseas Social Media Lead, UI Design Lead, and more."
+    },
+    "openPositions": "Open Positions",
+    "selectJob": "Select Position",
+    "jobType": {
+      "fulltime": "Full-time",
+      "intern": "Intern"
+    },
+    "applySection": {
+      "title": "How to Apply",
+      "description": "Please send your resume and portfolio (if applicable) to our hiring team with the position name in the subject line.",
+      "emailSubject": {
+        "title": "Email Subject Suggestion",
+        "content": "Position + Name + City + Available Start Date"
+      },
+      "attachments": {
+        "title": "Attachment Suggestions",
+        "content": "Resume, representative projects, personal strengths statement"
+      },
+      "contact": {
+        "title": "Contact Method",
+        "content": "Foshan Yijian Technology Co., Ltd. contact email: info{'@'}yijianspace.com (all contact actions open your email client directly)"
+      },
+      "feedback": {
+        "title": "Response Time",
+        "content": "We will contact you within 3-5 business days after initial resume screening"
+      }
+    },
+    "positions": [
+      {
+        "title": "Overseas Social Media Lead",
+        "type": "Full-time",
+        "level": "Manager",
+        "location": "Foshan Qiandeng Lake Degao Xin Avenue",
+        "summary": "Deeply participate in building a cross-border home design brand from 0 to 1, leading brand content expression and user growth on overseas social media channels.",
+        "sections": {
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Responsible for overall operation and growth of company overseas social media platforms, including but not limited to Instagram, Facebook, TikTok, Pinterest, YouTube, LinkedIn, etc.",
+              "Develop overseas social media content strategy, account operation strategy, and phased growth plans based on brand positioning and business goals, improving brand exposure, user engagement, and lead conversion",
+              "Lead overseas social media content system construction, including topic planning, content scheduling, copywriting direction, visual style, short video scripts, and communication rhythm control",
+              "Output content aligned with overseas user aesthetics and consumption habits around core business (whole-house design, full kitchens, whole-house customization, space renovation), shaping brand professionalism and premium positioning",
+              "Coordinate with design, brand, advertising, standalone site, and sales teams to drive social media content synergy with customer acquisition and conversion goals, forming a growth closed loop from content to lead capture",
+              "Responsible for overseas KOL/KOC, influencers, designers, and home blogger resource development, cooperation, and management, improving brand influence and content distribution efficiency",
+              "Monitor overseas home, interior design, renovation, and lifestyle trends, continuously research competitors and excellent brand cases, optimize content direction and operation tactics",
+              "Responsible for platform operation data, regularly review fan growth, engagement rate, views, traffic effects, and conversion performance, continuously improving operation efficiency",
+              "Build and optimize social media operation SOPs, content mechanisms, and team collaboration processes, promoting systematic and standardized overseas social media operation capabilities"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Bachelor's degree or above, English as working language, able to independently complete English content planning, communication, and output",
+              "3+ years overseas social media operation experience, experience with standalone site brands, cross-border e-commerce, home furnishing, lifestyle, high-value consumer brands preferred",
+              "Familiar with content logic, recommendation mechanisms, and user preferences of mainstream overseas social media platforms, with hands-on experience with Instagram, TikTok, Pinterest, etc.",
+              "Strong content planning and brand expression capabilities, able to transform product selling points, spatial design value, and brand concepts into content suitable for overseas distribution",
+              "Systematic understanding of \"brand exposure + user growth + lead acquisition\", not only able to create content but also understand conversion and business results",
+              "Strong data analysis and review capabilities, able to guide topic optimization, content iteration, and resource allocation through data",
+              "Cross-team collaboration capabilities, able to drive efficient cooperation among design, photography, editing, advertising, standalone site, and related teams",
+              "Good aesthetics, high sensitivity to home, space, and design content, strong control over premium brand tone"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "Experience with home, interior design, whole-house customization, building materials, lifestyle brands",
+              "Experience with overseas local content teams, photography/video production, influencer resources, or agency cooperation",
+              "Familiar with standalone site user conversion paths, experience with lead-based business, appointment/consultation business operations",
+              "Familiar with AI content tools, video tools, design tools, able to improve content production efficiency",
+              "Experience building overseas brand social media matrix from 0 to 1 or viral content cases"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will deeply participate in building a new cross-border home design brand from 0 to 1, around the innovative model of \"AI Design + China Supply Chain + Global Delivery\", leading brand content expression and user growth on overseas social media channels, helping the company establish international brand influence and customer acquisition capabilities"
+            ]
+          }
+        }
+      },
+      {
+        "title": "UI Design Lead",
+        "type": "Full-time",
+        "level": "Manager",
+        "location": "Foshan",
+        "summary": "Participate in building the visual system of a cross-border home design brand from 0 to 1, leading standalone site design, brand visual communication, and content packaging.",
+        "sections": {
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Responsible for overall visual design and page presentation of company standalone site, including homepage, campaign pages, product detail pages, special topic pages, landing pages, etc., continuously optimizing site brand feel, visual presentation, and user experience",
+              "Establish and improve standalone site visual standards, design components, and page style systems based on brand positioning and business needs, improving overall design efficiency and consistency",
+              "Responsible for daily brand communication material design, including but not limited to social media posters, ad images, campaign KVs, product images, brand introduction pages, investment materials, display materials, etc.",
+              "Coordinate with marketing, operations, brand, product, and other teams to complete various online and offline visual design needs, ensuring design output balances brand tone and communication effectiveness",
+              "Skilled use of AI design tools to improve visual creativity and output efficiency, participate in brand visual creativity, scene image production, concept image generation, proposal presentation, and related work",
+              "Responsible for short video visual packaging and basic editing, including video covers, subtitle styles, frame rhythm optimization, simple animation processing, and promotional video editing",
+              "Continuously optimize brand visual expression based on overseas user aesthetic trends and excellent industry cases, improving company overall image on standalone site and overseas communication",
+              "Collaborate with content, operations, technical development, and other teams to drive high-quality design implementation, balancing visual effects, interaction logic, and actual conversion performance",
+              "Manage and guide design team daily work, coordinate design schedules, review design quality, improving team overall output efficiency and professional standards"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Bachelor's degree or above, design, fine arts, visual communication, digital media, and related majors preferred",
+              "3+ years UI/visual design experience, experience with standalone sites, e-commerce brands, brand visual design preferred; team management experience preferred",
+              "Familiar with standalone site page design logic, able to independently complete website visual design, balancing brand expression, user experience, and conversion needs",
+              "Strong brand visual capabilities and aesthetic judgment, able to control overall design style, outputting visual content with premium feel, consistency, and commercial expression",
+              "Able to independently complete various communication material designs, with strong layout, typography, color matching, image processing, and creative expression capabilities",
+              "Proficient in mainstream design software such as Photoshop, Illustrator, Figma, Adobe XD, etc.",
+              "Familiar with and good at using AI tools for auxiliary design and creative output, including but not limited to AI image generation, photo editing, scene generation, creative extension, etc.",
+              "Basic video editing capabilities, able to use Premiere, CapCut, After Effects, and other tools to complete daily promotional video editing, packaging, and simple animation processing",
+              "Strong sensitivity to overseas aesthetics, brand communication, and internet visual trends, experience with cross-border e-commerce, DTC brands, or overseas markets preferred"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "Experience with standalone site brands, cross-border e-commerce, home furnishing, or lifestyle brands",
+              "Experience building brand visual systems or standalone site visual standards from 0 to 1",
+              "Strong AI creative capabilities, able to truly apply AI tools to design efficiency and content production",
+              "Video script understanding, camera sense, or short video content packaging experience",
+              "Mature portfolio demonstrating comprehensive capabilities in web design, brand visuals, communication materials, and video processing",
+              "Good English reading ability, able to understand overseas website visual styles and reference cases"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will participate in building the visual system of a new cross-border home design brand from 0 to 1, leading standalone site design, brand visual communication, and content packaging. This role is not just an execution design position, but an important owner of brand visual expression and users' first impression, directly impacting company brand image, user experience, and conversion effectiveness"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Finance Director (Partner Track / CFO Pipeline)",
+        "type": "Full-time",
+        "level": "Director / CFO Track",
+        "location": "Foshan / Hong Kong / Global Entity Collaboration",
+        "summary": "Design the company's monetization structure, incentive distribution, and risk-control foundation, and turn finance into a true growth engine.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "This is not a traditional bookkeeping and reporting role, but a finance partner role participating in top-level operating model design",
+              "The role is a key CFO pipeline position focused on monetization structure, incentive distribution, and risk control",
+              "Drive business growth through finance, not just post-fact recording and review"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Lead partner-incentive and amoeba management model design, and build a practical closed loop where profit creators share profit",
+              "Build independent accounting for teams and projects, including revenue attribution rules, cost allocation logic, and profit-center boundaries",
+              "Build a multi-model finance system for AI design + supply chain + project-based operations across project / product / service modes",
+              "Establish budgeting, cost-control, cash-flow management, profit forecasting, and ROI evaluation models",
+              "Manage multi-entity finance operations across China / Hong Kong / Europe / US and deliver group-level consolidated reporting and fund allocation strategy",
+              "Design internal transaction structures and compliant tax optimization paths to improve cross-entity operating efficiency",
+              "Deeply support pricing strategy, channel profitability analysis (DTC site / social / project channels), and workforce productivity models (output per head / ROI)",
+              "Establish internal control, contract and payment review mechanisms, anti-fraud controls, and off-book order detection mechanisms"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Hands-on experience in partner model / amoeba management implementation, not theory-only background",
+              "Experience managing finance for at least 2 entities, or multiple business units",
+              "Proven experience building or restructuring finance systems from 0 to 1",
+              "Strong structured thinking, able to decompose complex businesses into measurable and incentivizable accounting structures",
+              "Solid command of cost accounting, profit model design, cash-flow management, and management analysis"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "Experience in cross-border e-commerce (Amazon / Shopify), home improvement project businesses, or supply-chain enterprises",
+              "Participation in equity design, investment, or M&A projects",
+              "International finance experience with overseas entity structures and cross-border fund management"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will directly participate in top-level mechanism design and global expansion, with opportunities to join equity structure design and receive equity / profit-sharing incentives based on contribution"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Luxury Home Customization Partner / Business Lead",
+        "type": "Full-time",
+        "level": "Senior",
+        "location": "Foshan / Overseas Project Collaboration",
+        "summary": "Targeting overseas high-end residential markets, responsible for full-cycle deal closure from lead to contract signing to delivery coordination.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "We are building a whole-house business team targeting overseas high-end residential markets, looking for someone familiar with Shangceng Design, luxury whole-house solutions, whole-house customization, and high-net-worth customer deal logic, as a business partner/lead to help the company打通 the business conversion chain for luxury residential projects.",
+              "This role is not traditional store sales or simple order running, but needs to surround luxury customers, designer channels, project managers, and procurement chains, driving project deal closure from demand communication, proposal collaboration, quote and contract signing to procurement and落地."
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Responsible for developing and closing high-end residential/luxury home whole-house customization business, focusing on core roles such as high-net-worth owners, design firms, designers, project managers, and procurement leads",
+              "Based on the company's \"design-driven + full-category supply\" business model, drive whole-house business conversion, covering furniture, customization, soft furnishings, building materials, outdoor, and other whole-house products",
+              "Build and maintain connections in high-end design circles, luxury project circles, and villa/large home customer circles, forming stable customer acquisition and referral mechanisms",
+              "Responsible for key customer negotiations and deal closure advancement, including demand梳理, budget judgment, cooperation model communication, project pace advancement, contract signing, and payment collection follow-up",
+              "Coordinate with designers, supply chain, product, and delivery teams to drive smooth project衔接 from concept proposal, detailed proposal, quote list, procurement contract to落地 delivery",
+              "Able to identify key decision-makers and executors in luxury projects, not just focusing on bosses or lead designers, but also cultivating project managers, procurement, design assistants, and other execution chains to improve actual deal closure efficiency",
+              "Participate in business model打磨, helping the company establish customer management, quote collaboration, and project advancement SOPs suitable for luxury whole-house business",
+              "If highly matched, can participate as \"Business Lead/Partner\" in team building and business revenue-sharing mechanism design"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "5+ years high-end home furnishing, whole-house customization, luxury whole-house solutions, design firms, or large home customer sales or business management experience",
+              "Background in whole-house solutions, luxury design studios, high-end whole-house companies, high-end customization brands preferred",
+              "Familiar with luxury customer decision logic, understanding high-net-worth customer requirements for aesthetics, materials, quality, delivery, and service experience",
+              "Mature customer resources or designer channel resources, able to quickly bring project opportunities",
+              "Strong project-based sales capabilities, able to drive complex long-chain deal closure, not just standard product quick sales",
+              "Understand design collaboration, able to advance projects with designers, detailing, customization, and supply chain teams",
+              "Understand quotes, products, and basic processes, knowing the cooperation relationships among whole-house customization, furniture, soft furnishings, and building materials in projects",
+              "Judgment on risk points in luxury projects, such as batch color differences, on-site re-measurement, material durability, installation details, project documentation rigor, etc.",
+              "Entrepreneurial mindset, able to accept building business from 0 to 1, not just adapting to mature large platform divisions"
+            ]
+          },
+          "preferred": {
+            "title": "Preferred",
+            "items": [
+              "Experience as regional manager, key account manager, business lead, or whole-house business lead at Shangceng Design (or similar companies)",
+              "Experience with villas, large flats, model rooms, luxury clubs, overseas residential projects",
+              "Resources in design firm cooperation, project managers, procurement",
+              "Understand both design deal closure and supply chain and落地 delivery",
+              "Basic English communication preferred"
+            ]
+          },
+          "ideal": {
+            "title": "Who We're Looking For",
+            "items": [
+              "You can win over high-end customers and also win over designers",
+              "You know luxury customers aren't buying \"a cabinet, a sofa\", but overall effect, project certainty, and delivery peace of mind",
+              "You're not just someone who \"talks price\", but someone who talks proposals, talks cooperation, talks efficiency, talks results",
+              "You can combine personal resources with company supply chain, design, and delivery capabilities to truly form a business closed loop",
+              "You're willing to become a core business role in a startup team, not just an ordinary professional manager"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Software Engineer (AI Coding Focus)",
+        "type": "Full-time",
+        "level": "Mid-Senior",
+        "location": "Foshan / Remote Collaboration Possible",
+        "summary": "Participate in core system R&D, deeply integrate AI coding tools, improve development efficiency and delivery quality.",
+        "sections": {
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Responsible for R&D and maintenance of company core frontend business modules",
+              "Combine AI tools and technology to optimize existing development processes, significantly improving team code output quality and efficiency",
+              "Rapidly respond to product requirements and online issues, ensuring system high availability and stability"
+            ]
+          },
+          "techStack": {
+            "title": "Tech Stack",
+            "items": [
+              "Next.js or Nuxt.js",
+              "Node.js",
+              "PostgreSQL",
+              "Docker",
+              "Git",
+              "Vibe coding!"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "3-5 years experience, 1-2 years acceptable for exceptional candidates (extended probation)",
+              "Education: Bachelor's degree or above, computer science or related majors preferred, solid foundation in data structures, algorithms, and computer networks",
+              "AI Coding: Extreme advocacy and proficiency in AI coding. Able to skillfully use various AI-assisted code tools to improve personal and team efficiency, or have practical experience with AI-related projects (such as integrating LLM APIs, Agent development, etc.)",
+              "Professionalism: Highly dedicated. Pursuit of technology, high standards for code quality, strong sense of responsibility and pressure resistance",
+              "Agile Response: Quick thinking, rapid response. Strong problem troubleshooting and quick learning capabilities, able to adapt to fast-paced iterative development rhythms"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "RAG experience",
+              "LLM fine-tuning experience",
+              "ComfyUI experience",
+              "N8n experience",
+              "LangGraph experience",
+              "AIGC image and video generation experience"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Image & Content Processing Intern",
+        "type": "Intern",
+        "level": "Student",
+        "location": "Foshan",
+        "summary": "Participate in image screening, content verification, and basic 3D image processing assistance, supporting content production workflows.",
+        "sections": {
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Image screening and review: Conduct preliminary screening, classification, and quality review of large volumes of images according to established standards, ensuring image content meets project requirements",
+              "3D image processing assistance: Assist the team with simple processing, format conversion, basic editing, or preprocessing of 3D images (no advanced 3D modeling skills required, but learning willingness and basic understanding needed)",
+              "Content comparison and organization: Compare, verify, and organize copy, descriptions, or metadata related to images, ensuring information accuracy and consistency",
+              "Data annotation assistance: May involve simple tagging or classification of image content",
+              "Other supporting tasks: Complete other image and content processing-related auxiliary tasks assigned by the team"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Education: Current undergraduate or graduate student, design, fine arts, computer science, media, literature, and related majors preferred but not required",
+              "Basic skills: Proficient in computer and common office software (Word, Excel); certain aesthetic ability and sensitivity to images; careful, patient, responsible, able to efficiently complete repetitive work",
+              "Personal traits: Strong learning ability, able to quickly master new tools and processes; good communication and teamwork skills; able to adapt to fast-paced work environments, pressure resistant"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "Knowledge or experience with Photoshop, Lightroom, and other image processing software",
+              "Certain understanding or interest in 3D images, CGI (Computer Generated Imagery)",
+              "Good text comprehension and processing capabilities",
+              "Experience in data annotation or content review preferred"
+            ]
+          },
+          "benefits": {
+            "title": "What You'll Gain",
+            "items": [
+              "Practical experience: Deep understanding of actual image processing and content management workflows",
+              "Skill improvement: Exposure to and learning of 3D image processing related knowledge, improving image aesthetics and content review capabilities",
+              "Team atmosphere: Work with experienced professionals, receive guidance and feedback",
+              "Internship certificate: Excellent performers can receive internship certificates and opportunities for conversion or long-term cooperation"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Overseas Sales Consultant (Custom Furniture Styling)",
+        "type": "Full-time",
+        "level": "Sales Consultant / Business Manager",
+        "location": "Foshan / Remote Global Client Communication",
+        "summary": "Target overseas clients (mainly Europe and North America) and drive high-ticket furniture sales through English communication, space styling proposals, and deal conversion.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Target overseas clients (mainly Europe and North America) and complete high-ticket furniture sales + space styling proposal output + conversion",
+              "This is not a customer support role, but a sales-oriented design consultant who understands products, aesthetics, and closing"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Handle leads from WhatsApp, Email, Instagram, Shopify inquiries, and other channels, driving full-cycle conversion from inquiry to close",
+              "Communicate and guide clients based on floor plan, style preference, and budget to build a clear decision path",
+              "Provide whole-space matching recommendations for living room, bedroom, and dining room; bundle sofas, beds, dining tables, and other products into complete packages",
+              "Output lightweight styling proposals (image/text or PDF); focus on selling solutions, not just individual SKUs",
+              "Clearly explain Italian furniture positioning (e.g., B&B, Minotti, Poliform), materials, craftsmanship, and design language in English",
+              "Maintain high-potential and high-net-worth clients and guide repeat purchases (whole-home scope and soft furnishing add-ons)",
+              "Build reusable customer case content and sales materials to improve conversion efficiency",
+              "Actively push decision-making and closing instead of passive follow-up"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Fluent working English (primarily written; spoken is a plus), with sales-level communication ability",
+              "Strong baseline aesthetic sense for furniture and interiors, with understanding of modern, minimalist, and light-luxury styles",
+              "High-ticket sales experience preferred (>$1000) with clear closing mindset and conversion process ownership",
+              "Experience in furniture sales, interior design, soft furnishing, or premium consumer goods is preferred",
+              "Able to maintain high responsiveness across time zones",
+              "Execution-driven and result-oriented, accountable for conversion outcomes"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "Experience serving overseas home furnishing clients or cross-border business operations",
+              "Background in premium furniture brand sales",
+              "Ability to build and iterate reusable proposal templates for different customer scenarios"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will directly connect global high-value customer demand with the company's supply chain capability and drive the upgrade from product selling to solution selling."
+            ]
+          }
+        }
+      },
+      {
+        "title": "LLM Engineer (AIGC & Multimodal Applications)",
+        "type": "Full-time",
+        "level": "Engineer",
+        "location": "Foshan / Remote Collaboration Possible",
+        "summary": "Focus on using LLMs to generate high-quality text, image, audio, and video content to improve production efficiency and user experience.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Focus on using LLMs to generate high-quality text, image, audio, and video content for better production efficiency and user experience",
+              "Reporting line: CTO Nathan"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Build high-efficiency AIGC pipelines based on mainstream LLM and multimodal models (e.g., GPT, Claude, Stable Diffusion, Flux)",
+              "Fine-tune and optimize models with SFT, DPO, LoRA, and related methods for scenarios such as marketing copy, code generation, and style-specific image generation",
+              "Research prompt engineering deeply, build structured prompt libraries, and improve hallucination control and instruction following",
+              "Explore multimodal use cases such as image-text workflows, text-to-video, and visual understanding for business scenarios like automated e-commerce asset generation and intelligent content review"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Bachelor's degree or above in computer science or related fields, with solid Python / Node.js engineering fundamentals",
+              "Familiar with mainstream LLM frameworks and multimodal application development; hands-on experience in text-to-image, text generation, or digital human projects is preferred",
+              "Strong understanding of Transformer architecture and Diffusion Models, with awareness of common model tuning approaches",
+              "Strong quality judgment for generated content and ability to optimize outputs from a user-centric perspective"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will lead the core AIGC capability build-out and significantly improve automation efficiency for design and marketing teams."
+            ]
+          }
+        }
+      },
+      {
+        "title": "LLM Architect/Engineer (Agent Workflow)",
+        "type": "Full-time",
+        "level": "Senior Engineer / Architect",
+        "location": "Foshan / Remote Collaboration Possible",
+        "summary": "Focus on AI-enabling complex business logic and build Agent systems with autonomous planning, tool calling, and self-repair capabilities using LangGraph.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Focus on AI-enabling complex business logic and build Agent systems with autonomous planning, tool calling, and self-repair capabilities using frameworks such as LangGraph"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Design and orchestrate complex Agent workflows with LangGraph / LangChain, including multi-agent collaboration systems",
+              "Use LangGraph graph structures (Nodes & Edges) for loop control, conditional routing, and persistent state management to prevent long-chain state loss",
+              "Design and implement LLM function-calling pipelines that integrate internal APIs, databases, and external search tools",
+              "Build advanced RAG pipelines (e.g., reflective RAG, adaptive RAG) and improve complex QA accuracy through workflow integration",
+              "Build Agent evaluation sets and optimize per-node tracing, latency, and cost across the full workflow"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Deep command of LangGraph or similar graph-based orchestration frameworks; able to model complex business processes as state machines",
+              "Strong architecture design capability with hands-on experience in Asyncio, concurrent systems, and complex state management",
+              "Familiar with vector databases (Milvus / Pinecone), observability and tracing tools (LangSmith / Arize Phoenix), and mainstream LLM APIs",
+              "Strong problem-solving orientation for Agent failure modes, able to design robust retry, correction, and human-in-the-loop mechanisms"
+            ]
+          },
+          "value": {
+            "title": "Role Value",
+            "items": [
+              "You will build the core Agent foundation of the company and directly impact the stability and scalability of complex task automation."
+            ]
+          }
+        }
+      },
+      {
+        "title": "Supply Chain Development",
+        "type": "Full-time",
+        "level": "Specialist / BD",
+        "location": "Foshan / Supplier Channel Development",
+        "summary": "Compensation: 6-8K. Own the full workflow from supplier sourcing to evaluation, outreach, and partnership conversion.",
+        "sections": {
+          "positioning": {
+            "title": "Role Positioning",
+            "items": [
+              "Own end-to-end supply-side development from supplier information mining to outreach, evaluation, and partnership execution",
+              "Build a reusable long-term supplier network of furniture factories, showrooms, and source manufacturers"
+            ]
+          },
+          "responsibilities": {
+            "title": "Responsibilities",
+            "items": [
+              "Source furniture factories, showrooms, and origin suppliers via 1688, Douyin, Xiaohongshu, and industry channels",
+              "Build and maintain a supplier database, including category, capability, customer profile, and market positioning",
+              "Actively contact factory and showroom owners to drive showroom shoots, factory shoots, content collaboration, and overseas collaboration",
+              "Assess supplier product strength, collaboration efficiency, and overseas potential for long-term cooperation",
+              "Output shoot-ready factory/showroom resources, provide product and story materials, and support viral content sourcing"
+            ]
+          },
+          "requirements": {
+            "title": "Requirements",
+            "items": [
+              "Capability-first hiring; strong information sensitivity on Douyin/Xiaohongshu and ability to quickly identify source suppliers",
+              "Good communication skills with willingness to cold-call, negotiate, and push cooperation forward",
+              "Strong execution, not just data collection, but follow-through to conversion",
+              "Experience in furniture, home improvement, foreign trade, or factory-related work is preferred",
+              "Familiarity with Foshan supplier networks and furniture industrial clusters is preferred"
+            ]
+          },
+          "bonus": {
+            "title": "Bonus Points",
+            "items": [
+              "BD, sales, or resource integration experience",
+              "Existing factory/showroom connections that can accelerate partnership building",
+              "Understanding of content topics and material conversion to help increase viral-content hit rate"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "section": {
+    "positioning": "Role Positioning",
+    "responsibilities": "Responsibilities",
+    "requirements": "Requirements",
+    "bonus": "Bonus Points",
+    "preferred": "Preferred",
+    "value": "Role Value",
+    "techStack": "Tech Stack",
+    "ideal": "Who We're Looking For",
+    "benefits": "What You'll Gain"
+  }
+}
